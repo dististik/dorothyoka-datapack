@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "disable": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:end_stone"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "dfc72:end_stone_fast",
+            "dfc72:end_stone_slow"
+        ]
+    }
+}

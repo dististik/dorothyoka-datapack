@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "disable": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:slime_ball"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "dfc72:magma_cream",
+            "dfc72:magma_cream2",
+            "dfc72:magma_cream3"
+        ]
+    }
+}

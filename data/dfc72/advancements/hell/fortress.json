@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Breaking And Entering"
+        },
+        "description": {
+            "text": "Stumble upon a fortress."
+        },
+        "icon": {
+            "item": "minecraft:red_nether_bricks"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "fortress": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "feature": "fortress"
+                }
+            }
+        }
+    },
+    "parent": "dfc72:hell/root"
+}

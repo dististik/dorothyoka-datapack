@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Inedible"
+        },
+        "description": {
+            "text": "Valuable in other dimensions."
+        },
+        "icon": {
+            "item": "minecraft:gold_ingot"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "gold": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:gold_ingot"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "dfc72:basics/get_iron"
+}

@@ -1,0 +1,28 @@
+{
+	"display": {
+		"title": {
+			"text": "Back From The Dead"
+		},
+		"description": {
+			"text": "Respawn the ender dragon."
+		},
+		"icon": {
+			"item": "minecraft:end_crystal"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"lava": {
+			"trigger": "minecraft:summoned_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:ender_dragon"
+				}
+			}
+		}
+	},
+	"parent": "dfc72:end/kill_dragon"
+}

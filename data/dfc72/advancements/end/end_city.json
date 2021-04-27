@@ -1,0 +1,26 @@
+{
+   "display": {
+        "title": {
+            "text": "City of Secrets"
+        },
+        "description": {
+            "text": "I hear there's valuable treasure inside."
+        },
+        "icon": {
+            "item": "minecraft:purpur_pillar"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "lava": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "endcity"
+            }
+        }
+    },
+    "parent": "dfc72:end/enter_gateway"
+}

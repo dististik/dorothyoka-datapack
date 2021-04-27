@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "A Weapon to Surpass Metal Gear"
+        },
+        "description": {
+            "text": "Acquire a netherite ingot."
+        },
+        "icon": {
+            "item": "minecraft:netherite_ingot"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "diamond3": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:netherite_ingot"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "dfc72:hell/strider_ride"
+}

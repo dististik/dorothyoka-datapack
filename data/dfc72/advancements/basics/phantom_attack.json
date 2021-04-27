@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "text": "Sleep Paralysis Demon"
+        },
+        "description": {
+            "text": "Sleep to see another day."
+        },
+        "icon": {
+            "item": "minecraft:phantom_spawn_egg"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "phantom hurt": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "direct_entity": {
+                            "type": "minecraft:phantom"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "dfc72:basics/hostile_64"
+}

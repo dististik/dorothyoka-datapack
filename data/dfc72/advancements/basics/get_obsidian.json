@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Idle Hands"
+        },
+        "description": {
+            "text": "Now what would you want with something like this?"
+        },
+        "icon": {
+            "item": "minecraft:obsidian"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "blackstuff": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:obsidian"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "dfc72:basics/get_diamond"
+}

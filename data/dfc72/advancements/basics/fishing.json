@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Fishing Jamoboree"
+        },
+        "description": {
+            "text": "Cast out your line!"
+        },
+        "icon": {
+            "item": "minecraft:fishing_rod"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "hook_fish": {
+            "trigger": "minecraft:fishing_rod_hooked"
+        }
+    },
+    "parent": "dfc72:basics/other_tools"
+}

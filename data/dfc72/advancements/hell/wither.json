@@ -1,0 +1,41 @@
+{
+    "display": {
+        "title": {
+            "text": "Jackass Alert"
+        },
+        "description": {
+            "text": "Red alert, we have a code 69 jackass. I repeat, a code 69 jackass."
+        },
+        "icon": {
+            "item": "minecraft:soul_sand"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "xxx": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:soul_sand",
+                        "count": {
+                            "min": 4,
+                            "max": 4
+                        }
+                    },
+                    {
+                        "item": "minecraft:wither_skeleton_skull",
+                        "count": {
+                            "min": 3,
+                            "max": 3
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "dfc72:hell/fortress"
+}

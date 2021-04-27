@@ -1,0 +1,46 @@
+{
+    "display": {
+        "title": {
+            "text": "Okay, Maybe A Little Edible"
+        },
+        "description": {
+            "text": "Armor for your insides."
+        },
+        "icon": {
+            "item": "minecraft:golden_apple"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "gold69": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:golden_apple"
+                    }
+                ]
+            }
+        },
+        "gold420": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:enchanted_golden_apple"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "gold69",
+            "gold420"
+        ]
+    ],
+    "parent": "dfc72:basics/gold_boots"
+}

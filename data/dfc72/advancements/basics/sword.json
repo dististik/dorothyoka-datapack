@@ -1,0 +1,79 @@
+{
+    "display": {
+        "title": {
+            "text": "Self Defense"
+        },
+        "description": {
+            "text": "I probably won't use it I swear."
+        },
+        "icon": {
+            "item": "minecraft:stone_sword"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "wooden": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:wooden_sword"
+                    }
+                ]
+            }
+        },
+        "stone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stone_sword"
+                    }
+                ]
+            }
+        },
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_sword"
+                    }
+                ]
+            }
+        },
+        "gold": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:golden_sword"
+                    }
+                ]
+            }
+        },
+        "diamond": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_sword"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "wooden",
+            "stone",
+            "iron",
+            "gold",
+            "diamond"
+        ]
+    ],
+    "parent": "dfc72:basics/root"
+}

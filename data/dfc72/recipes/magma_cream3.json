@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:campfire_cooking",
+    "ingredient": {
+        "item": "minecraft:slime_ball"
+    },
+    "result": "minecraft:magma_cream",
+    "experience": 6.9,
+    "cookingtime": 200,
+    "group": "slime_flesh"
+}

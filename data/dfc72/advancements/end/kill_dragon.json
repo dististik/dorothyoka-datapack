@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Only The Beginning"
+        },
+        "description": {
+            "text": "Kill the dragon."
+        },
+        "icon": {
+            "item": "minecraft:dragon_head"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "murder": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ender_dragon"
+                }
+            }
+        }
+    },
+    "parent": "dfc72:end/root"
+}

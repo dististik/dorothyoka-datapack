@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#W#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:cobblestone"
+        },
+        "W": {
+            "item": "minecraft:wheat_seeds"
+        }
+    },
+    "result": {
+        "item": "minecraft:mossy_cobblestone",
+        "count": 4
+    },
+    "group": "mossy_cobble_oops"
+}

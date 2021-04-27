@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Argent Energy"
+        },
+        "description": {
+            "text": "Obtain a new helpful mineral."
+        },
+        "icon": {
+            "item": "minecraft:quartz"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "diamond3": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:quartz"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "dfc72:hell/root"
+}

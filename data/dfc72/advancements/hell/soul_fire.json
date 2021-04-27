@@ -1,0 +1,50 @@
+{
+    "display": {
+        "title": {
+            "text": "Definitely Ethical"
+        },
+        "description": {
+            "text": "Now you can burn the souls of the damned in a convenient, portable format."
+        },
+        "icon": {
+            "item": "minecraft:soul_campfire"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "tourch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:soul_torch"
+                    }
+                ]
+            }
+        },
+        "lanturn": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:soul_lantern"
+                    }
+                ]
+            }
+        },
+        "camp": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:soul_campfire"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "dfc72:hell/root"
+}

@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Dark Shine"
+        },
+        "description": {
+            "text": "Find an old friend."
+        },
+        "icon": {
+            "item": "minecraft:golden_hoe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "diamond3": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:nether_gold_ore"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "dfc72:hell/quartz"
+}

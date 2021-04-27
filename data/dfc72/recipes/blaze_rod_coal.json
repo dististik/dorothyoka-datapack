@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "NSN",
+        " N "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:coal"
+        },
+        "N": {
+            "item": "minecraft:nether_wart"
+        },
+        "S": {
+            "item": "minecraft:sugar_cane"
+        }
+    },
+    "result": {
+        "item": "minecraft:blaze_rod",
+        "count": 1
+    },
+    "group": "blaze_rod_peaceful"
+}

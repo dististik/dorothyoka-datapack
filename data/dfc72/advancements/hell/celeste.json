@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "B-Side Now Available!"
+        },
+        "description": {
+            "text": "Find the music disc for Pigstep by Lena Raine."
+        },
+        "icon": {
+            "item": "minecraft:music_disc_pigstep"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "diamond3": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:music_disc_pigstep"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "dfc72:hell/remnants"
+}

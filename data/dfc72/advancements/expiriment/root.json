@@ -1,0 +1,114 @@
+{
+    "display": {
+        "title": {
+            "text": "Experimenting"
+        },
+        "description": {
+            "text": "Let's have fun with some of Minecraft's obscure mechanics!",
+            "bold": false,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+        },
+        "icon": {
+            "item": "minecraft:command_block"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/dark_prismarine.png"
+    },
+    "criteria": {
+        "string_custom": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "dfc72:string_white"
+            }
+        },
+        "mush_custom": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "dfc72:red_mushy_block"
+            }
+        },
+        "magma_custom": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "dfc72:magma_cream"
+            }
+        },
+        "phantom_custom": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "dfc72:phantom_membrane"
+            }
+        },
+        "blaze_custom": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "dfc72:blaze_rod_coal"
+            }
+        },
+        "saddle_custom": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "dfc72:saddle"
+            }
+        },
+        "trident_custom": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "dfc72:trident"
+            }
+        },
+        "moss1_custom": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "dfc72:mossy_cobble"
+            }
+        },
+        "moss2_custom": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "dfc72:mossy_brick"
+            }
+        },
+        "end_custom": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "dfc72:end_stone_slow"
+            }
+        },
+        "crying_custom": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "dfc72:crying_obsidian"
+            }
+        },
+        "chain_custom": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "dfc72:chain_boots"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "crying_custom",
+            "end_custom",
+            "moss2_custom",
+            "moss1_custom",
+            "trident_custom",
+            "saddle_custom",
+            "blaze_custom",
+            "phantom_custom",
+            "end_custom",
+            "magma_custom",
+            "mush_custom",
+            "string_custom",
+            "chain_custom"
+        ]
+    ]
+}

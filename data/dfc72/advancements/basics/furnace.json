@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "All Fired Up"
+        },
+        "description": {
+            "text": "Think of all the crap I can shove in here."
+        },
+        "icon": {
+            "item": "minecraft:furnace"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "furnace": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:furnace"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "dfc72:basics/pickaxe"
+}

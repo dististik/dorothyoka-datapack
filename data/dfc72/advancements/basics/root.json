@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "The Basics"
+        },
+        "description": {
+            "text": "Congrats on your basic understanding of video games.",
+            "bold": false,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+        },
+        "icon": {
+            "item": "minecraft:crafting_table"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/block/dirt.png"
+    },
+    "criteria": {
+        "crafting table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:crafting_table"
+                    }
+                ]
+            }
+        }
+    }
+}

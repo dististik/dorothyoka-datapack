@@ -1,0 +1,120 @@
+{
+    "display": {
+        "title": {
+            "text": "Actually A Waste Of Resources"
+        },
+        "description": {
+            "text": "Enlighten me, Einstein, what on Aqua's green and beautiful Earth does this accomplish?"
+        },
+        "icon": {
+            "item": "minecraft:diamond_hoe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "efficiency": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_hoe",
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:efficiency"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "fortune": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_hoe",
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:fortune"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "unbreaking": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_hoe",
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:unbreaking"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "silk_touch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_hoe",
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:silk_touch"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "mending": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_hoe",
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:mending"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "curse": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_hoe",
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:vanishing_curse"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "curse",
+            "fortune",
+            "efficiency",
+            "unbreaking",
+            "silk_touch",
+            "mending"
+        ]
+    ],
+    "parent": "dfc72:basics/diamond_hoe"
+}

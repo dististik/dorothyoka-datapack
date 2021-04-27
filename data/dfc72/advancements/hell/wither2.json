@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Massive Fucking Cock Goblin"
+        },
+        "description": {
+            "text": "I hope you know nobody loves you."
+        },
+        "icon": {
+            "item": "minecraft:nether_star"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "ggyhufgqi4y8g29fyhdus": {
+            "trigger": "minecraft:summoned_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:wither",
+                    "location": {
+                        "dimension": "overworld"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "dfc72:hell/wither"
+}

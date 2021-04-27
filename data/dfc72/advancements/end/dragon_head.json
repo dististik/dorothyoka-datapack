@@ -1,0 +1,30 @@
+{
+	"display": {
+		"title": {
+			"text": "Uncanny Resemblance"
+		},
+		"description": {
+			"text": "This isn't weird at all, no sir."
+		},
+		"icon": {
+			"item": "minecraft:mycelium"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"lava": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:dragon_head"
+					}
+				]
+			}
+		}
+	},
+	"parent": "dfc72:end/end_city"
+}

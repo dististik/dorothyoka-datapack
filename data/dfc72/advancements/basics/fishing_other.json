@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Don't Try This At Home"
+        },
+        "description": {
+            "text": "Watch where you're swinging that thing!"
+        },
+        "icon": {
+            "item": "minecraft:pufferfish"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "xxx": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:bow"
+                }
+            }
+        }
+    },
+    "parent": "dfc72:basics/fishing_odd"
+}

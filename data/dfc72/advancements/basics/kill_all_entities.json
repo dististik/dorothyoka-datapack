@@ -1,0 +1,586 @@
+{
+    "display": {
+        "title": {
+            "text": "What Am I Fighting For?"
+        },
+        "description": {
+            "text": "Honestly, I don't remember either."
+        },
+        "icon": {
+            "item": "minecraft:netherite_axe"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "blazeit420": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:blaze"
+                }
+            }
+        },
+        "ghast": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ghast"
+                }
+            }
+        },
+        "magma": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:magma_cube"
+                }
+            }
+        },
+        "fucker": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:wither_skeleton"
+                }
+            }
+        },
+        "hog": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:hoglin"
+                }
+            }
+        },
+        "zog": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zoglin"
+                }
+            }
+        },
+        "super_fucker": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:cave_spider"
+                }
+            }
+        },
+        "spider": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:spider"
+                }
+            }
+        },
+        "creeper": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:creeper"
+                }
+            }
+        },
+        "drowned": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:drowned"
+                }
+            }
+        },
+        "elder": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:elder_guardian"
+                }
+            }
+        },
+        "endermite": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:endermite"
+                }
+            }
+        },
+        "evoker": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:evoker"
+                }
+            }
+        },
+        "guardian": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:guardian"
+                }
+            }
+        },
+        "husk": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:husk"
+                }
+            }
+        },
+        "insomnia": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:phantom"
+                }
+            }
+        },
+        "pillager": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:pillager"
+                }
+            }
+        },
+        "ravager": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ravager"
+                }
+            }
+        },
+        "shulker": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:shulker"
+                }
+            }
+        },
+        "silverfish": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:silverfish"
+                }
+            }
+        },
+        "slime": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:slime"
+                }
+            }
+        },
+        "archer": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:skeleton"
+                }
+            }
+        },
+        "stray": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:stray"
+                }
+            }
+        },
+        "vinny": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:vindicator"
+                }
+            }
+        },
+        "witch": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:witch"
+                }
+            }
+        },
+        "zomzam": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie"
+                }
+            }
+        },
+        "zomzam2": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie_villager"
+                }
+            }
+        },
+        "dragon": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ender_dragon"
+                }
+            }
+        },
+        "douchebag": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:wither"
+                }
+            }
+        },
+        "bat": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:bat"
+                }
+            }
+        },
+        "cat": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:cat"
+                }
+            }
+        },
+        "chicken": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:chicken"
+                }
+            }
+        },
+        "cod": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:cod"
+                }
+            }
+        },
+        "cow": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:cow"
+                }
+            }
+        },
+        "horse2": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:donkey"
+                }
+            }
+        },
+        "fox": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:fox"
+                }
+            }
+        },
+        "horse": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:horse"
+                }
+            }
+        },
+        "soupslut": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:mooshroom"
+                }
+            }
+        },
+        "horse3": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:mule"
+                }
+            }
+        },
+        "cat2": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ocelot"
+                }
+            }
+        },
+        "parrot": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:parrot"
+                }
+            }
+        },
+        "pig": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:pig"
+                }
+            }
+        },
+        "puff": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:pufferfish"
+                }
+            }
+        },
+        "rabbit": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:rabbit"
+                }
+            }
+        },
+        "salmon": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:salmon"
+                }
+            }
+        },
+        "sheep": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:sheep"
+                }
+            }
+        },
+        "snowman": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:snow_golem"
+                }
+            }
+        },
+        "squid": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:squid"
+                }
+            }
+        },
+        "tropical": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:tropical_fish"
+                }
+            }
+        },
+        "turtle": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:turtle"
+                }
+            }
+        },
+        "villager": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager"
+                }
+            }
+        },
+        "trader": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:wandering_trader"
+                }
+            }
+        },
+        "fuck_bees": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:bee"
+                }
+            }
+        },
+        "rapest": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:dolphin"
+                }
+            }
+        },
+        "ironboi": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:iron_golem"
+                }
+            }
+        },
+        "fuckface": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:llama"
+                }
+            }
+        },
+        "panda": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:panda"
+                }
+            }
+        },
+        "coldboi": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:polar_bear"
+                }
+            }
+        },
+        "wolf": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:wolf"
+                }
+            }
+        },
+        "slender": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:enderman"
+                }
+            }
+        },
+        "piglin": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:piglin"
+                }
+            }
+        },
+        "zig": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombified_piglin"
+                }
+            }
+        },
+        "synth": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:strider"
+                }
+            }
+        },
+        "fuckface2": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:trader_llama"
+                }
+            }
+        }
+    },
+    "requirements": [
+        ["hog","zog"],
+        ["fucker"],
+        ["magma"],
+        ["ghast"],
+        ["blazeit420"],
+        ["douchebag"],
+        ["dragon"],
+        ["zomzam","zomzam2"],
+        ["husk"],
+        ["witch"],
+        ["vinny"],
+        ["archer"],
+        ["stray"],
+        ["slime"],
+        ["silverfish"],
+        ["shulker"],
+        ["ravager"],
+        ["pillager"],
+        ["insomnia"],
+        ["guardian","elder"],
+        ["drowned"],
+        ["creeper"],
+        ["endermite"],
+        ["evoker"],
+        ["spider"],
+        ["super_fucker"],
+        ["synth"],
+        ["piglin","zig"],
+        ["slender"],
+        ["wolf"],
+        ["coldboi"],
+        ["panda"],
+        ["fuckface","fuckface2"],
+        ["ironboi"],
+        ["rapest"],
+        ["fuck_bees"],
+        ["villager","trader"],
+        ["turtle"],
+        ["tropical","cod","salmon","puff"],
+        ["squid"],
+        ["snowman"],
+        ["sheep"],
+        ["rabbit"],
+        ["pig"],
+        ["parrot"],
+        ["cat","cat2"],
+        ["horse","horse2","horse3"],
+        ["soupslut"],
+        ["fox"],
+        ["cow"],
+        ["chicken"],
+        ["bat"]
+    ],
+    "parent": "dfc72:basics/kill_all_hostile_mobs"
+}

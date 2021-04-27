@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "To The Terminus"
+        },
+        "description": {
+            "text": "Discover a black castle."
+        },
+        "icon": {
+            "item": "minecraft:blackstone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "remnants": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "feature": "bastion_remnant"
+                }
+            }
+        }
+    },
+    "parent": "dfc72:hell/fortress"
+}

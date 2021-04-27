@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Voidless"
+        },
+        "description": {
+            "text": "Welcome to the end.",
+            "bold": false,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+        },
+        "icon": {
+            "item": "minecraft:crying_obsidian"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/block/end_stone.png"
+    },
+    "criteria": {
+        "xxx": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "the_end"
+            }
+        }
+    }
+}

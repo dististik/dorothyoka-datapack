@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "minecraft:obsidian"
+    },
+    "result": "minecraft:end_stone",
+    "experience": 15,
+    "cookingtime": 800,
+    "group": "ender_stone"
+}

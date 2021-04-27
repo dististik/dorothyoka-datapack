@@ -1,0 +1,36 @@
+{
+    "criteria": {
+        "red": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:red_mushroom"
+                    }
+                ]
+            }
+        },
+        "brown": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:brown_mushroom"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements":[
+        [
+            "red",
+            "brown"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "dfc72:red_mushy_block",
+            "dfc72:brown_mushy_block"
+        ]
+    }
+}

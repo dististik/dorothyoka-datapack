@@ -1,0 +1,94 @@
+{
+    "display": {
+        "title": {
+            "text": "Hellwalker"
+        },
+        "description": {
+            "text": "You've seen everything the Nether has to offer."
+        },
+        "icon": {
+            "item": "minecraft:netherite_boots"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+    	"wastes": {
+    		"trigger": "minecraft:location",
+    		"conditions": {
+    			"location": {
+    				"biome": "minecraft:nether_wastes"
+    			}
+    		}
+    	},
+    	"valley": {
+    		"trigger": "minecraft:location",
+    		"conditions": {
+    			"location": {
+    				"biome": "minecraft:soul_sand_valley"
+    			}
+    		}
+    	},
+    	"crimson": {
+    		"trigger": "minecraft:location",
+    		"conditions": {
+    			"location": {
+    				"biome": "minecraft:crimson_forest"
+    			}
+    		}
+    	},
+    	"vermillion": {
+    		"trigger": "minecraft:location",
+    		"conditions": {
+    			"location": {
+    				"biome": "minecraft:warped_forest"
+    			}
+    		}
+    	},
+    	"basalt": {
+    		"trigger": "minecraft:location",
+    		"conditions": {
+    			"location": {
+    				"biome": "minecraft:basalt_deltas"
+    			}
+    		}
+    	},
+    	"portal": {
+    		"trigger": "minecraft:location",
+    		"conditions": {
+    			"location": {
+    				"feature": "ruined_portal"
+    			}
+    		}
+    	},
+    	"fortress": {
+    		"trigger": "minecraft:location",
+    		"conditions": {
+    			"location": {
+    				"feature": "fortress"
+    			}
+    		}
+    	},
+    	"remnants": {
+    		"trigger": "minecraft:location",
+    		"conditions": {
+    			"location": {
+    				"feature": "bastion_remnant"
+    			}
+    		}
+    	}
+    },
+    "requirements":[
+    	["remnants"],
+    	["fortress"],
+    	["portal"],
+    	["basalt"],
+    	["crimson"],
+    	["vermillion"],
+    	["valley"],
+    	["wastes"]
+    ],
+    "parent": "dfc72:hell/remnants"
+}

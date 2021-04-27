@@ -1,0 +1,28 @@
+{
+	"display": {
+		"title": {
+			"text": "Taking Flight"
+		},
+		"description": {
+			"text": "Fly (voluntarily) without the use of creative mode."
+		},
+		"icon": {
+			"item": "minecraft:elytra"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"lava": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"item": {
+					"item": "minecraft:elytra"
+				}
+			}
+		}
+	},
+	"parent": "dfc72:end/end_city"
+}

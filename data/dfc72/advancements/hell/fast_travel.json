@@ -1,0 +1,30 @@
+{
+	"display": {
+		"title": {
+			"text": "Fast Travel"
+		},
+		"description": {
+			"text": "Travel 10 kilometres in the overworld via the nether."
+		},
+		"icon": {
+			"item": "minecraft:emerald_block"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"xxx": {
+			"trigger": "minecraft:nether_travel",
+			"conditions": {
+				"distance": {
+					"horizontal": {
+						"min": 10000.0
+					}
+				}
+			}
+		}
+	},
+	"parent": "dfc72:hell/no_escape"
+}

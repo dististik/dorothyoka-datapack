@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "No Escape"
+        },
+        "description": {
+            "text": "I hope you know your way back home."
+        },
+        "icon": {
+            "item": "minecraft:bedrock"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "xxx": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "the_nether",
+                "position": {
+                    "y": {
+                        "min": 122
+                    }
+                }
+            }
+        }
+    },
+    "parent": "dfc72:hell/charge_anchor"
+}

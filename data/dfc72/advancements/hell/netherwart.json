@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Swamp Witch"
+        },
+        "description": {
+            "text": "Find the primary ingrediant in potions."
+        },
+        "icon": {
+            "item": "minecraft:nether_wart_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "gg738": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:nether_wart"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "dfc72:hell/fortress"
+}

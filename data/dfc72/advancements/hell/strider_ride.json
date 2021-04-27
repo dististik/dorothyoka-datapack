@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "The Sea of Tragic Beasts"
+        },
+        "description": {
+            "text": "Ride a strider in the Nether."
+        },
+        "icon": {
+            "item": "minecraft:warped_fungus_on_a_stick"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "xxx": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:warped_fungus_on_a_stick"
+                }
+            }
+        }
+    },
+    "parent": "dfc72:hell/soul_fire"
+}

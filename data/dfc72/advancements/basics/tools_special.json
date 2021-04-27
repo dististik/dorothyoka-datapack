@@ -1,0 +1,77 @@
+{
+    "display": {
+        "title": {
+            "text": "Beyond MOAR"
+        },
+        "description": {
+            "text": "Construct every non-basic tool."
+        },
+        "icon": {
+            "item": "minecraft:shears"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "fishing": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:fishing_rod"
+                    }
+                ]
+            }
+        },
+        "shears": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:shears"
+                    }
+                ]
+            }
+        },
+        "flint": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:flint_and_steel"
+                    }
+                ]
+            }
+        },
+        "compass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:compass"
+                    }
+                ]
+            }
+        },
+        "bucket": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bucket"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        ["bucket"],
+        ["compass"],
+        ["flint"],
+        ["shears"],
+        ["fishing"]
+    ],
+    "parent": "dfc72:basics/bucket_all"
+}

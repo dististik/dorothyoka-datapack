@@ -1,0 +1,43 @@
+{
+	"display": {
+		"title": {
+			"text": "Autoerotic Asphyxiation"
+		},
+		"description": {
+			"text": "Hit yourself with an arrow while swimming in lava."
+		},
+		"icon": {
+			"item": "minecraft:spectral_arrow"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"lava_damage": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"type": "minecraft:player",
+							"distance": {
+								"absolute": {
+									"min": 0,
+									"max": 0
+								}
+							},
+							"location": {
+								"fluid": {
+									"fluid": "lava"
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"parent": "dfc72:expiriment/root"
+}

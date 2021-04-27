@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "disable": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:chain"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "dfc72:chain_boots",
+            "dfc72:chain_chest",
+            "dfc72:chain_helmet",
+            "dfc72:chain_legs"
+        ]
+    }
+}

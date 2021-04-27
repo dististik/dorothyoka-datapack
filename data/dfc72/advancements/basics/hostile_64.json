@@ -1,0 +1,108 @@
+{
+    "display": {
+        "title": {
+            "text": "Most Dangerous Game"
+        },
+        "description": {
+            "text": "Hey, they could have fought back."
+        },
+        "icon": {
+            "item": "minecraft:tipped_arrow"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "flesh" : {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:rotten_flesh",
+                        "count": {
+                            "min": 64
+                        }
+                    }
+                ]
+            }
+        },
+        "pearl" : {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:ender_pearl",
+                        "count": {
+                            "min": 64
+                        }
+                    }
+                ]
+            }
+        },
+        "bone" : {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bone",
+                        "count": {
+                            "min": 64
+                        }
+                    }
+                ]
+            }
+        },
+        "gunpowder" : {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:gunpowder",
+                        "count": {
+                            "min": 64
+                        }
+                    }
+                ]
+            }
+        },
+        "tear" : {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:ghast_tear",
+                        "count": {
+                            "min": 64
+                        }
+                    }
+                ]
+            }
+        },
+        "slime" : {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:slime_ball",
+                        "count": {
+                            "min": 64
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "flesh",
+            "slime",
+            "tear",
+            "gunpowder",
+            "bone",
+            "pearl"
+        ]
+    ],
+    "parent": "dfc72:basics/mob_drops"
+}

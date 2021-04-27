@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Monumental Misuse"
+        },
+        "description": {
+            "text": "You could have made a kickass sword for less."
+        },
+        "icon": {
+            "item": "minecraft:netherite_hoe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bucket": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:netherite_hoe"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "dfc72:basics/diamond_hoe"
+}

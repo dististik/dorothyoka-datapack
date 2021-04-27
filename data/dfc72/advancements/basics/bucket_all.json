@@ -1,0 +1,96 @@
+{
+    "display": {
+        "title": {
+            "text": "Swiss Army Bucket"
+        },
+        "description": {
+            "text": "Used for more than just water!"
+        },
+        "icon": {
+            "item": "minecraft:bucket"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "water": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:water_bucket"
+                    }
+                ]
+            }
+        },
+        "lava": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:lava_bucket"
+                    }
+                ]
+            }
+        },
+        "milk": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:milk_bucket"
+                    }
+                ]
+            }
+        },
+        "fish1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cod_bucket"
+                    }
+                ]
+            }
+        },
+        "fish2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:pufferfish_bucket"
+                    }
+                ]
+            }
+        },
+        "fish3": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:salmon_bucket"
+                    }
+                ]
+            }
+        },
+        "fish4": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:tropical_fish_bucket"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements":[
+        ["water"],
+        ["lava"],
+        ["milk"],
+        ["fish1","fish2","fish3","fish4"]
+    ],
+    "parent": "dfc72:basics/other_tools"
+}

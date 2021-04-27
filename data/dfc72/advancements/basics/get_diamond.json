@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Obligatory Excitement"
+        },
+        "description": {
+            "text": "I mean, is it really still that impressive?"
+        },
+        "icon": {
+            "item": "minecraft:diamond"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "diamond46378ryfud": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "dfc72:basics/get_iron"
+}

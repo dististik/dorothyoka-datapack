@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "disable": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:popped_chorus_fruit"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "dfc72:crying_obsidian"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Piss Boots Club"
+        },
+        "description": {
+            "text": "They were peed on before I got them."
+        },
+        "icon": {
+            "item": "minecraft:golden_boots"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "gold": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:golden_boots"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "dfc72:basics/get_gold"
+}

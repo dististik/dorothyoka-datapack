@@ -1,0 +1,28 @@
+{
+	"display": {
+		"title": {
+			"text": "New VHS Static Flavour!"
+		},
+		"description": {
+			"text": "Tastes like a dead entertainment medium!"
+		},
+		"icon": {
+			"item": "minecraft:chorus_fruit"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"lava": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:chorus_fruit"
+				}
+			}
+		}
+	},
+	"parent": "dfc72:end/enter_gateway"
+}

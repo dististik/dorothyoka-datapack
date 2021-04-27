@@ -1,0 +1,234 @@
+{
+    "display": {
+        "title": {
+            "text": "Branching Out"
+        },
+        "description": {
+            "text": "Got a basic tool for something other than mining and definitely not murder."
+        },
+        "icon": {
+            "item": "minecraft:stone_hoe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "wooden1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:wooden_axe"
+                    }
+                ]
+            }
+        },
+        "stone1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stone_axe"
+                    }
+                ]
+            }
+        },
+        "iron1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_axe"
+                    }
+                ]
+            }
+        },
+        "gold1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:golden_axe"
+                    }
+                ]
+            }
+        },
+        "diamond1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_axe"
+                    }
+                ]
+            }
+        },
+        "wooden2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:wooden_shovel"
+                    }
+                ]
+            }
+        },
+        "stone2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stone_shovel"
+                    }
+                ]
+            }
+        },
+        "iron2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_shovel"
+                    }
+                ]
+            }
+        },
+        "gold2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:golden_shovel"
+                    }
+                ]
+            }
+        },
+        "diamond2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_shovel"
+                    }
+                ]
+            }
+        },
+        "wooden3": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:wooden_hoe"
+                    }
+                ]
+            }
+        },
+        "stone3": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stone_hoe"
+                    }
+                ]
+            }
+        },
+        "iron3": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_hoe"
+                    }
+                ]
+            }
+        },
+        "gold3": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:golden_hoe"
+                    }
+                ]
+            }
+        },
+        "diamond3": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_hoe"
+                    }
+                ]
+            }
+        },
+        "fishing": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:fishing_rod"
+                    }
+                ]
+            }
+        },
+        "shears": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:shears"
+                    }
+                ]
+            }
+        },
+        "flint": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:flint_and_steel"
+                    }
+                ]
+            }
+        },
+        "compass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:compass"
+                    }
+                ]
+            }
+        },
+        "bucket": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bucket"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bucket",
+            "compass",
+            "flint",
+            "shears",
+            "fishing",
+            "wooden1","wooden2","wooden3",
+            "stone1","stone2","stone3",
+            "iron1","iron2","iron3",
+            "gold1","gold2","gold3",
+            "diamond1","diamond2","diamond3"
+        ]
+    ],
+    "parent": "dfc72:basics/root"
+}

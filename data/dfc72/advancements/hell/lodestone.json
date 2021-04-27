@@ -1,0 +1,26 @@
+{
+	"display": {
+		"title": {
+			"text": "False North"
+		},
+		"description": {
+			"text": "Correct the world's compasses."
+		},
+		"icon": {
+			"item": "minecraft:lodestone"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"lava": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"block": "minecraft:lodestone"
+			}
+		}
+	},
+	"parent": "dfc72:hell/netherite"
+}

@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "minecraft:obsidian"
+    },
+    "result": "minecraft:end_stone",
+    "experience": 15,
+    "cookingtime": 400,
+    "group": "ender_stone"
+}

@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Wholly Unnecessary"
+        },
+        "description": {
+            "text": "Okay sure but why?"
+        },
+        "icon": {
+            "item": "minecraft:diamond_hoe"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "diamond3": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_hoe"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "dfc72:basics/other_tools"
+}
