@@ -15,43 +15,10 @@
         "hidden": false
     },
     "criteria": {
-        "base": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:potion"
-                    }
-                ]
-            }
-        },
-        "splash": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:splash_potion"
-                    }
-                ]
-            }
-        },
-        "lingering": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:lingering_potion"
-                    }
-                ]
-            }
+        "elixer": {
+            "trigger": "minecraft:brewed_potion",
+            "conditions": {}
         }
     },
-    "requirements":[
-        [
-            "base",
-            "splash",
-            "lingering"
-        ]
-    ],
     "parent": "dfc72:hell/netherwart"
 }

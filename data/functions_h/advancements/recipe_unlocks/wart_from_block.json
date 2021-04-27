@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "blok": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:nether_wart_block"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "dfc72:nether_wart_fblock"
+        ]
+    }
+}

@@ -158,6 +158,14 @@
                     "item": "minecraft:ink_sac"
                 }
             }
+        },
+        "exp": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:experience_bottle"
+                }
+            }
         }
     },
     "requirements":[
@@ -179,7 +187,8 @@
             "tag",
             "fishing",
             "book",
-            "bow"
+            "bow",
+            "exp"
         ]
     ],
     "parent": "dfc72:basics/fishing"

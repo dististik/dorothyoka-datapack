@@ -1,0 +1,24 @@
+{
+	"criteria": {
+		"white": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "minecraft:wool"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"white"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dfc72:string_peaceful"
+		]
+	}
+}

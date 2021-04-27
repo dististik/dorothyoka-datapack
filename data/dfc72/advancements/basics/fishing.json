@@ -15,8 +15,13 @@
         "hidden": false
     },
     "criteria": {
-        "hook_fish": {
-            "trigger": "minecraft:fishing_rod_hooked"
+        "lava": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:fishing_rod"
+                }
+            }
         }
     },
     "parent": "dfc72:basics/other_tools"

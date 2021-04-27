@@ -1,0 +1,33 @@
+{
+    "criteria": {
+        "ball": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:clay_ball"
+                    }
+                ]
+            }
+        },
+        "block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:clay"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        ["ball","block"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "dfc72:new_clay"
+        ]
+    }
+}

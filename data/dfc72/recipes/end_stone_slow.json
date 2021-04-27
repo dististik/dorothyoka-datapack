@@ -4,7 +4,7 @@
         "item": "minecraft:obsidian"
     },
     "result": "minecraft:end_stone",
-    "experience": 15,
+    "experience": 2.8,
     "cookingtime": 800,
     "group": "ender_stone"
 }

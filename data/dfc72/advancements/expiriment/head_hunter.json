@@ -1,0 +1,74 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:creeper_head"
+		},
+		"title": "Head Hunter",
+		"description": "Collect four different hostile mob heads (boss heads don't count).",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"creeper": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:creeper_head",
+						"count": {
+							"min": 1
+						}
+					}
+				]
+			}
+		},
+		"skeleton": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:skeleton_skull",
+						"count": {
+							"min": 1
+						}
+					}
+				]
+			}
+		},
+		"spooky": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:wither_skeleton_skull",
+						"count": {
+							"min": 1
+						}
+					}
+				]
+			}
+		},
+		"zombie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:zombie_head",
+						"count": {
+							"min": 1
+						}
+					}
+				]
+			}
+		}
+	},
+	"parent": "dfc72:expiriment/lightning_spawn",
+	"requirements": [
+		["zombie"],
+		["spooky"],
+		["skeleton"],
+		["creeper"]
+	]
+}

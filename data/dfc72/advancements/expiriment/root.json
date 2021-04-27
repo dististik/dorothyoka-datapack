@@ -21,94 +21,333 @@
         "background": "minecraft:textures/block/dark_prismarine.png"
     },
     "criteria": {
-        "string_custom": {
-            "trigger": "minecraft:recipe_unlocked",
+        "wooden1_other": {
+            "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "recipe": "dfc72:string_white"
+                "items": [
+                    {
+                        "item": "minecraft:wooden_axe"
+                    }
+                ]
             }
         },
-        "mush_custom": {
-            "trigger": "minecraft:recipe_unlocked",
+        "stone1_other": {
+            "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "recipe": "dfc72:red_mushy_block"
+                "items": [
+                    {
+                        "item": "minecraft:stone_axe"
+                    }
+                ]
             }
         },
-        "magma_custom": {
-            "trigger": "minecraft:recipe_unlocked",
+        "iron1_other": {
+            "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "recipe": "dfc72:magma_cream"
+                "items": [
+                    {
+                        "item": "minecraft:iron_axe"
+                    }
+                ]
             }
         },
-        "phantom_custom": {
-            "trigger": "minecraft:recipe_unlocked",
+        "gold1_other": {
+            "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "recipe": "dfc72:phantom_membrane"
+                "items": [
+                    {
+                        "item": "minecraft:golden_axe"
+                    }
+                ]
             }
         },
-        "blaze_custom": {
-            "trigger": "minecraft:recipe_unlocked",
+        "diamond1_other": {
+            "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "recipe": "dfc72:blaze_rod_coal"
+                "items": [
+                    {
+                        "item": "minecraft:diamond_axe"
+                    }
+                ]
             }
         },
-        "saddle_custom": {
-            "trigger": "minecraft:recipe_unlocked",
+        "wooden2_other": {
+            "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "recipe": "dfc72:saddle"
+                "items": [
+                    {
+                        "item": "minecraft:wooden_shovel"
+                    }
+                ]
             }
         },
-        "trident_custom": {
-            "trigger": "minecraft:recipe_unlocked",
+        "stone2_other": {
+            "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "recipe": "dfc72:trident"
+                "items": [
+                    {
+                        "item": "minecraft:stone_shovel"
+                    }
+                ]
             }
         },
-        "moss1_custom": {
-            "trigger": "minecraft:recipe_unlocked",
+        "iron2_other": {
+            "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "recipe": "dfc72:mossy_cobble"
+                "items": [
+                    {
+                        "item": "minecraft:iron_shovel"
+                    }
+                ]
             }
         },
-        "moss2_custom": {
-            "trigger": "minecraft:recipe_unlocked",
+        "gold2_other": {
+            "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "recipe": "dfc72:mossy_brick"
+                "items": [
+                    {
+                        "item": "minecraft:golden_shovel"
+                    }
+                ]
             }
         },
-        "end_custom": {
-            "trigger": "minecraft:recipe_unlocked",
+        "diamond2_other": {
+            "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "recipe": "dfc72:end_stone_slow"
+                "items": [
+                    {
+                        "item": "minecraft:diamond_shovel"
+                    }
+                ]
             }
         },
-        "crying_custom": {
-            "trigger": "minecraft:recipe_unlocked",
+        "wooden3_other": {
+            "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "recipe": "dfc72:crying_obsidian"
+                "items": [
+                    {
+                        "item": "minecraft:wooden_hoe"
+                    }
+                ]
             }
         },
-        "chain_custom": {
-            "trigger": "minecraft:recipe_unlocked",
+        "stone3_other": {
+            "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "recipe": "dfc72:chain_boots"
+                "items": [
+                    {
+                        "item": "minecraft:stone_hoe"
+                    }
+                ]
+            }
+        },
+        "iron3_other": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_hoe"
+                    }
+                ]
+            }
+        },
+        "gold3_other": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:golden_hoe"
+                    }
+                ]
+            }
+        },
+        "diamond3_other": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_hoe"
+                    }
+                ]
+            }
+        },
+        "fishing": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:fishing_rod"
+                    }
+                ]
+            }
+        },
+        "shears": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:shears"
+                    }
+                ]
+            }
+        },
+        "flint": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:flint_and_steel"
+                    }
+                ]
+            }
+        },
+        "compass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:compass"
+                    }
+                ]
+            }
+        },
+        "bucket": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bucket"
+                    }
+                ]
+            }
+        },
+        "wooden": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:wooden_sword"
+                    }
+                ]
+            }
+        },
+        "stone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stone_sword"
+                    }
+                ]
+            }
+        },
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_sword"
+                    }
+                ]
+            }
+        },
+        "gold": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:golden_sword"
+                    }
+                ]
+            }
+        },
+        "diamond": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_sword"
+                    }
+                ]
+            }
+        },
+        "woodenx": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:wooden_pickaxe"
+                    }
+                ]
+            }
+        },
+        "stonex": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stone_pickaxe"
+                    }
+                ]
+            }
+        },
+        "ironx": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_pickaxe"
+                    }
+                ]
+            }
+        },
+        "goldx": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:golden_pickaxe"
+                    }
+                ]
+            }
+        },
+        "diamondx": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_pickaxe"
+                    }
+                ]
             }
         }
     },
     "requirements": [
         [
-            "crying_custom",
-            "end_custom",
-            "moss2_custom",
-            "moss1_custom",
-            "trident_custom",
-            "saddle_custom",
-            "blaze_custom",
-            "phantom_custom",
-            "end_custom",
-            "magma_custom",
-            "mush_custom",
-            "string_custom",
-            "chain_custom"
+            "bucket",
+            "compass",
+            "flint",
+            "shears",
+            "fishing",
+            "wooden1_other","wooden2_other","wooden3_other",
+            "stone1_other","stone2_other","stone3_other",
+            "iron1_other","iron2_other","iron3_other",
+            "gold1_other","gold2_other","gold3_other",
+            "diamond1_other","diamond2_other","diamond3_other"
+        ],
+        [
+            "wooden",
+            "stone",
+            "iron",
+            "gold",
+            "diamond"
+        ],
+        [
+            "woodenx",
+            "stonex",
+            "ironx",
+            "goldx",
+            "diamondx"
         ]
     ]
 }

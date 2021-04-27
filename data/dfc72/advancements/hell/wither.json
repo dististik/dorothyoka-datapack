@@ -35,7 +35,121 @@
                     }
                 ]
             }
+        },
+        "zzz": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:soul_soil",
+                        "count": {
+                            "min": 4,
+                            "max": 4
+                        }
+                    },
+                    {
+                        "item": "minecraft:wither_skeleton_skull",
+                        "count": {
+                            "min": 3,
+                            "max": 3
+                        }
+                    }
+                ]
+            }
+        },
+        "xxz": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:soul_sand",
+                        "count": {
+                            "min": 3,
+                            "max": 3
+                        }
+                    },
+                    {
+                        "item": "minecraft:soul_soil",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    },
+                    {
+                        "item": "minecraft:wither_skeleton_skull",
+                        "count": {
+                            "min": 3,
+                            "max": 3
+                        }
+                    }
+                ]
+            }
+        },
+        "xzz": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:soul_sand",
+                        "count": {
+                            "min": 2,
+                            "max": 2
+                        }
+                    },
+                    {
+                        "item": "minecraft:soul_soil",
+                        "count": {
+                            "min": 2,
+                            "max": 2
+                        }
+                    },
+                    {
+                        "item": "minecraft:wither_skeleton_skull",
+                        "count": {
+                            "min": 3,
+                            "max": 3
+                        }
+                    }
+                ]
+            }
+        },
+        "zxz": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:soul_sand",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    },
+                    {
+                        "item": "minecraft:soul_soil",
+                        "count": {
+                            "min": 3,
+                            "max": 3
+                        }
+                    },
+                    {
+                        "item": "minecraft:wither_skeleton_skull",
+                        "count": {
+                            "min": 3,
+                            "max": 3
+                        }
+                    }
+                ]
+            }
         }
     },
+    "requirements": [
+        [
+            "xxx",
+            "zzz",
+            "xxz",
+            "xzz",
+            "zxz"
+        ]
+    ],
     "parent": "dfc72:hell/fortress"
 }

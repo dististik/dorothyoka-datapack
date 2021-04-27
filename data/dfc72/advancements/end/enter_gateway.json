@@ -7,7 +7,7 @@
 			"text": "Travelling Beyond"
 		},
 		"description": {
-			"translate": "Use the mysteriously formed and definitely trustworthy portal that generated."
+			"translate": "Use the mysteriously formed and definitely trustworthy portal that generates after killing the dragon."
 		},
 		"frame": "task",
 		"show_toast": true,

@@ -1,0 +1,64 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:firework_star"
+		},
+		"title": "Lightning Returns",
+		"description": "Force a storm transformation.",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"creeper": {
+			"trigger": "minecraft:channeled_lightning",
+			"conditions": {
+				"victims": [
+					{
+						"type": "minecraft:creeper"
+					}
+				]
+			}
+		},
+		"pig": {
+			"trigger": "minecraft:channeled_lightning",
+			"conditions": {
+				"victims": [
+					{
+						"type": "minecraft:pig"
+					}
+				]
+			}
+		},
+		"villager": {
+			"trigger": "minecraft:channeled_lightning",
+			"conditions": {
+				"victims": [
+					{
+						"type": "minecraft:villager"
+					}
+				]
+			}
+		},
+		"mooshroom": {
+			"trigger": "minecraft:channeled_lightning",
+			"conditions": {
+				"victims": [
+					{
+						"type": "minecraft:mooshroom"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"mooshroom",
+			"villager",
+			"pig",
+			"creeper"
+		]
+	],
+	"parent": "dfc72:expiriment/root"
+}

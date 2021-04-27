@@ -1,0 +1,34 @@
+{
+    "display": {
+        "title": {
+            "text": "Minimum Efficiency"
+        },
+        "description": {
+            "text": "Kill a very specific enemy with an otherwise harmless \"weapon\"."
+        },
+        "icon": {
+            "item": "minecraft:snowball"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "blazeball": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:blaze"
+                },
+                "killing_blow": {
+                    "is_projectile": true,
+                    "direct_entity": {
+                        "type": "minecraft:snowball"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "dfc72:expiriment/root"
+}

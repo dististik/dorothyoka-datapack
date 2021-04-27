@@ -15,10 +15,17 @@
 		"hidden": false
 	},
 	"criteria": {
-		"lava": {
-			"trigger": "minecraft:placed_block",
+		"charge_respawn_anchor": {
+			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-				"block": "minecraft:lodestone"
+				"location": {
+					"block": {
+						"block": "minecraft:lodestone"
+					}
+				},
+				"item": {
+					"item": "minecraft:compass"
+				}
 			}
 		}
 	},

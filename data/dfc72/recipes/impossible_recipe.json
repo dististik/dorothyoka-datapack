@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#E#",
+        "RCG",
+        "#N#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:bedrock"
+        },
+        "E": {
+            "item": "minecraft:emerald_block"
+        },
+        "R": {
+            "item": "minecraft:redstone_block"
+        },
+        "C": {
+            "item": "minecraft:command_block_minecart"
+        },
+        "G": {
+            "item": "minecraft:gold_block"
+        },
+        "N": {
+            "item": "minecraft:netherite_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:stone",
+        "count": 64
+    },
+    "group": "removed_vanilla"
+}

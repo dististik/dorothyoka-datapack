@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "functions_h:command_books/cmd_ender_dragon1"
+      }
+    }
+  },
+  "rewards": {
+    "function": "functions_h:command_books/spawn_end_dragon1"
+  }
+}

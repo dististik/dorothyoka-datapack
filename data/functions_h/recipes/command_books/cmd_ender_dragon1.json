@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:repeating_command_block"
+        },
+        {
+            "item": "minecraft:end_portal_frame"
+        }
+    ],
+    "result": {
+        "item": "minecraft:command_block",
+        "count": 1
+    }
+}
