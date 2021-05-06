@@ -3,17 +3,14 @@
     "pattern": [
         "#  ",
         "   ",
-        " 03"
+        "  1"
     ],
     "key": {
         "#": {
             "item": "minecraft:structure_block"
         },
-        "0": {
-            "item": "minecraft:trident"
-        },
-        "3": {
-        	"item": "minecraft:barrier"
+        "1": {
+            "item": "minecraft:structure_void"
         }
     },
     "result": {

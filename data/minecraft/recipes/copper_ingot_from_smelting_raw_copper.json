@@ -1,9 +1,20 @@
 {
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "minecraft:command_block_minecart"
-  },
-  "result": "minecraft:dirt",
-  "experience": 0.0,
-  "cookingtime": 9999999999
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#  ",
+        "   ",
+        " 00"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:structure_block"
+        },
+        "0": {
+            "item": "minecraft:trident"
+        }
+    },
+    "result": {
+        "item": "minecraft:dirt",
+        "count": 1
+    }
 }

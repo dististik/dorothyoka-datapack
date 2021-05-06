@@ -1,9 +1,23 @@
 {
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "minecraft:light"
-  },
-  "result": "minecraft:dirt",
-  "experience": 0.0,
-  "cookingtime": 9999999999
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#  ",
+        "   ",
+        " 04"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:structure_block"
+        },
+        "0": {
+            "item": "minecraft:trident"
+        },
+        "4": {
+        	"item": "minecraft:budding_amethyst"
+        }
+    },
+    "result": {
+        "item": "minecraft:dirt",
+        "count": 1
+    }
 }

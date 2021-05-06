@@ -1,9 +1,23 @@
 {
-  "type": "minecraft:blasting",
-  "ingredient": {
-    "item": "minecraft:barrier"
-  },
-  "result": "minecraft:dirt",
-  "experience": 0.0,
-  "cookingtime": 9999999999
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#  ",
+        "   ",
+        " 01"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:structure_block"
+        },
+        "0": {
+            "item": "minecraft:trident"
+        },
+        "1": {
+        	"item": "minecraft:structure_void"
+        }
+    },
+    "result": {
+        "item": "minecraft:dirt",
+        "count": 1
+    }
 }
