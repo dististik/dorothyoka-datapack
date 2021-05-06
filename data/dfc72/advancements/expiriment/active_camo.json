@@ -1,0 +1,98 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head"
+		},
+		"title": "Optimal Camouflage ",
+		"description": "Kill five different mobs while wearing their heads.",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"zombie": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"head": {
+							"item": "minecraft:zombie_head"
+						}
+					}
+				},
+				"entity": {
+					"type": "minecraft:zombie"
+				}
+			}
+		},
+		"archer": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"head": {
+							"item": "minecraft:skeleton_skull"
+						}
+					}
+				},
+				"entity": {
+					"type": "minecraft:skeleton"
+				}
+			}
+		},
+		"wither": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"head": {
+							"item": "minecraft:wither_skeleton_skull"
+						}
+					}
+				},
+				"entity": {
+					"type": "minecraft:wither_skeleton"
+				}
+			}
+		},
+		"creeper": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"head": {
+							"item": "minecraft:creeper_head"
+						}
+					}
+				},
+				"entity": {
+					"type": "minecraft:creeper"
+				}
+			}
+		},
+		"dragon": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"head": {
+							"item": "minecraft:dragon_head"
+						}
+					}
+				},
+				"entity": {
+					"type": "minecraft:ender_dragon"
+				}
+			}
+		}
+	},
+	"parent": "dfc72:expiriment/head_hunter",
+	"requirements": [
+		["zombie"],
+		["archer"],
+		["wither"],
+		["creeper"],
+		["dragon"]
+	]
+}
