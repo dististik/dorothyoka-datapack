@@ -20,7 +20,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:nether_wart"
+                        "items": ["minecraft:nether_wart"]
                     }
                 ]
             }

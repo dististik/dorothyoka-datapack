@@ -20,7 +20,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:leather"
+                        "items": ["minecraft:leather"]
                     }
                 ]
             }
@@ -30,7 +30,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:beef"
+                        "items": ["minecraft:beef"]
                     }
                 ]
             }
@@ -40,7 +40,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:feather"
+                        "items": ["minecraft:feather"]
                     }
                 ]
             }
@@ -50,7 +50,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:chicken"
+                        "items": ["minecraft:chicken"]
                     }
                 ]
             }
@@ -60,7 +60,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:cod"
+                        "items": ["minecraft:cod"]
                     }
                 ]
             }
@@ -70,7 +70,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:porkchop"
+                        "items": ["minecraft:porkchop"]
                     }
                 ]
             }
@@ -80,7 +80,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:rabbit"
+                        "items": ["minecraft:rabbit"]
                     }
                 ]
             }
@@ -90,7 +90,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:mutton"
+                        "items": ["minecraft:mutton"]
                     }
                 ]
             }
@@ -100,7 +100,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tropical_fish"
+                        "items": ["minecraft:tropical_fish"]
                     }
                 ]
             }
@@ -110,7 +110,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:salmon"
+                        "items": ["minecraft:salmon"]
                     }
                 ]
             }

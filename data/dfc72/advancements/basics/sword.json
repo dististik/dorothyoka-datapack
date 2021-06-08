@@ -20,7 +20,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:wooden_sword"
+                        "items": ["minecraft:wooden_sword"]
                     }
                 ]
             }
@@ -30,7 +30,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stone_sword"
+                        "items": ["minecraft:stone_sword"]
                     }
                 ]
             }
@@ -40,7 +40,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:iron_sword"
+                        "items": ["minecraft:iron_sword"]
                     }
                 ]
             }
@@ -50,7 +50,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:golden_sword"
+                        "items": ["minecraft:golden_sword"]
                     }
                 ]
             }
@@ -60,7 +60,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:diamond_sword"
+                        "items": ["minecraft:diamond_sword"]
                     }
                 ]
             }

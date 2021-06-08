@@ -16,7 +16,7 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:daylight_detector"
+						"blocks": ["minecraft:daylight_detector"]
 					},
 					"light": {
 						"min": 0,

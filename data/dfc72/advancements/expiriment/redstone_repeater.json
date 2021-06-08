@@ -16,7 +16,7 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:repeater"
+						"blocks": ["minecraft:repeater"]
 					}
 				}
 			}
