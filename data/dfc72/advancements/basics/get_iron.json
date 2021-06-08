@@ -1,5 +1,4 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
             "text": "Acquire Hardware"
@@ -21,7 +20,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:iron_ingot"
+                        "items": ["minecraft:iron_ingot"]
                     }
                 ]
             }

@@ -20,7 +20,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_pigstep"
+                        "items": ["minecraft:music_disc_pigstep"]
                     }
                 ]
             }
