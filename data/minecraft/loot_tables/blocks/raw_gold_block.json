@@ -1,0 +1,55 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"enchantments": [
+											{
+												"enchantment": "minecraft:silk_touch",
+												"levels": {
+													"min": 1
+												}
+											}
+										]
+									}
+								}
+							],
+							"name": "minecraft:raw_gold_block"
+						},
+						{
+							"type": "minecraft:item",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": 5.0,
+										"max": 7.0,
+										"type": "minecraft:uniform"
+									}
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{droppedByRawBlock:1b}"
+								},
+								{
+									"function": "minecraft:explosion_decay"
+								}
+							],
+							"name": "minecraft:gold_ingot"
+						}
+					]
+				}
+			]
+		}
+	]
+}
