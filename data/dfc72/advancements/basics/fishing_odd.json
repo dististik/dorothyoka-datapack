@@ -19,7 +19,7 @@
             "trigger": "minecraft:fishing_rod_hooked",
             "conditions": {
                 "item": {
-                    "item": "minecraft:bow"
+                    "items": ["minecraft:bow"]
                 }
             }
         },
@@ -27,7 +27,7 @@
             "trigger": "minecraft:fishing_rod_hooked",
             "conditions": {
                 "item": {
-                    "item": "minecraft:enchanted_book"
+                    "items": ["minecraft:enchanted_book"]
                 }
             }
         },
@@ -35,7 +35,7 @@
             "trigger": "minecraft:fishing_rod_hooked",
             "conditions": {
                 "item": {
-                    "item": "minecraft:fishing_rod"
+                    "items": ["minecraft:fishing_rod"]
                 }
             }
         },
@@ -43,7 +43,7 @@
             "trigger": "minecraft:fishing_rod_hooked",
             "conditions": {
                 "item": {
-                    "item": "minecraft:name_tag"
+                    "items": ["minecraft:name_tag"]
                 }
             }
         },
@@ -51,7 +51,7 @@
             "trigger": "minecraft:fishing_rod_hooked",
             "conditions": {
                 "item": {
-                    "item": "minecraft:nautilus_shell"
+                    "items": ["minecraft:nautilus_shell"]
                 }
             }
         },
@@ -59,7 +59,7 @@
             "trigger": "minecraft:fishing_rod_hooked",
             "conditions": {
                 "item": {
-                    "item": "minecraft:saddle"
+                    "items": ["minecraft:saddle"]
                 }
             }
         },
@@ -67,7 +67,7 @@
             "trigger": "minecraft:fishing_rod_hooked",
             "conditions": {
                 "item": {
-                    "item": "minecraft:lily_pad"
+                    "items": ["minecraft:lily_pad"]
                 }
             }
         },
@@ -75,7 +75,7 @@
             "trigger": "minecraft:fishing_rod_hooked",
             "conditions": {
                 "item": {
-                    "item": "minecraft:bowl"
+                    "items": ["minecraft:bowl"]
                 }
             }
         },
@@ -83,7 +83,7 @@
             "trigger": "minecraft:fishing_rod_hooked",
             "conditions": {
                 "item": {
-                    "item": "minecraft:leather"
+                    "items": ["minecraft:leather"]
                 }
             }
         },
@@ -91,7 +91,7 @@
             "trigger": "minecraft:fishing_rod_hooked",
             "conditions": {
                 "item": {
-                    "item": "minecraft:leather_boots"
+                    "items": ["minecraft:leather_boots"]
                 }
             }
         },
@@ -99,7 +99,7 @@
             "trigger": "minecraft:fishing_rod_hooked",
             "conditions": {
                 "item": {
-                    "item": "minecraft:rotten_flesh"
+                    "items": ["minecraft:rotten_flesh"]
                 }
             }
         },
@@ -107,7 +107,7 @@
             "trigger": "minecraft:fishing_rod_hooked",
             "conditions": {
                 "item": {
-                    "item": "minecraft:stick"
+                    "items": ["minecraft:stick"]
                 }
             }
         },
@@ -115,7 +115,7 @@
             "trigger": "minecraft:fishing_rod_hooked",
             "conditions": {
                 "item": {
-                    "item": "minecraft:string"
+                    "items": ["minecraft:string"]
                 }
             }
         },
@@ -123,7 +123,7 @@
             "trigger": "minecraft:fishing_rod_hooked",
             "conditions": {
                 "item": {
-                    "item": "minecraft:potion"
+                    "items": ["minecraft:potion"]
                 }
             }
         },
@@ -131,7 +131,7 @@
             "trigger": "minecraft:fishing_rod_hooked",
             "conditions": {
                 "item": {
-                    "item": "minecraft:bone"
+                    "items": ["minecraft:bone"]
                 }
             }
         },
@@ -139,7 +139,7 @@
             "trigger": "minecraft:fishing_rod_hooked",
             "conditions": {
                 "item": {
-                    "item": "minecraft:bamboo"
+                    "items": ["minecraft:bamboo"]
                 }
             }
         },
@@ -147,7 +147,7 @@
             "trigger": "minecraft:fishing_rod_hooked",
             "conditions": {
                 "item": {
-                    "item": "minecraft:cocoa_beans"
+                    "items": ["minecraft:cocoa_beans"]
                 }
             }
         },
@@ -155,7 +155,7 @@
             "trigger": "minecraft:fishing_rod_hooked",
             "conditions": {
                 "item": {
-                    "item": "minecraft:ink_sac"
+                    "items": ["minecraft:ink_sac"]
                 }
             }
         },
@@ -163,7 +163,7 @@
             "trigger": "minecraft:fishing_rod_hooked",
             "conditions": {
                 "item": {
-                    "item": "minecraft:experience_bottle"
+                    "items": ["minecraft:experience_bottle"]
                 }
             }
         }

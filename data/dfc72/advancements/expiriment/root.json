@@ -26,7 +26,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:wooden_axe"
+                        "items": ["minecraft:wooden_axe"]
                     }
                 ]
             }
@@ -36,7 +36,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stone_axe"
+                        "items": ["minecraft:stone_axe"]
                     }
                 ]
             }
@@ -46,7 +46,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:iron_axe"
+                        "items": ["minecraft:iron_axe"]
                     }
                 ]
             }
@@ -56,7 +56,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:golden_axe"
+                        "items": ["minecraft:golden_axe"]
                     }
                 ]
             }
@@ -66,7 +66,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:diamond_axe"
+                        "items": ["minecraft:diamond_axe"]
                     }
                 ]
             }
@@ -76,7 +76,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:wooden_shovel"
+                        "items": ["minecraft:wooden_shovel"]
                     }
                 ]
             }
@@ -86,7 +86,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stone_shovel"
+                        "items": ["minecraft:stone_shovel"]
                     }
                 ]
             }
@@ -96,7 +96,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:iron_shovel"
+                        "items": ["minecraft:iron_shovel"]
                     }
                 ]
             }
@@ -106,7 +106,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:golden_shovel"
+                        "items": ["minecraft:golden_shovel"]
                     }
                 ]
             }
@@ -116,7 +116,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:diamond_shovel"
+                        "items": ["minecraft:diamond_shovel"]
                     }
                 ]
             }
@@ -126,7 +126,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:wooden_hoe"
+                        "items": ["minecraft:wooden_hoe"]
                     }
                 ]
             }
@@ -136,7 +136,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stone_hoe"
+                        "items": ["minecraft:stone_hoe"]
                     }
                 ]
             }
@@ -146,7 +146,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:iron_hoe"
+                        "items": ["minecraft:iron_hoe"]
                     }
                 ]
             }
@@ -156,7 +156,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:golden_hoe"
+                        "items": ["minecraft:golden_hoe"]
                     }
                 ]
             }
@@ -166,7 +166,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:diamond_hoe"
+                        "items": ["minecraft:diamond_hoe"]
                     }
                 ]
             }
@@ -176,7 +176,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:fishing_rod"
+                        "items": ["minecraft:fishing_rod"]
                     }
                 ]
             }
@@ -186,7 +186,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:shears"
+                        "items": ["minecraft:shears"]
                     }
                 ]
             }
@@ -196,7 +196,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:flint_and_steel"
+                        "items": ["minecraft:flint_and_steel"]
                     }
                 ]
             }
@@ -206,7 +206,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:compass"
+                        "items": ["minecraft:compass"]
                     }
                 ]
             }
@@ -216,7 +216,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:bucket"
+                        "items": ["minecraft:bucket"]
                     }
                 ]
             }
@@ -226,7 +226,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:wooden_sword"
+                        "items": ["minecraft:wooden_sword"]
                     }
                 ]
             }
@@ -236,7 +236,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stone_sword"
+                        "items": ["minecraft:stone_sword"]
                     }
                 ]
             }
@@ -246,7 +246,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:iron_sword"
+                        "items": ["minecraft:iron_sword"]
                     }
                 ]
             }
@@ -256,7 +256,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:golden_sword"
+                        "items": ["minecraft:golden_sword"]
                     }
                 ]
             }
@@ -266,7 +266,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:diamond_sword"
+                        "items": ["minecraft:diamond_sword"]
                     }
                 ]
             }
@@ -276,7 +276,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:wooden_pickaxe"
+                        "items": ["minecraft:wooden_pickaxe"]
                     }
                 ]
             }
@@ -286,7 +286,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stone_pickaxe"
+                        "items": ["minecraft:stone_pickaxe"]
                     }
                 ]
             }
@@ -296,7 +296,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:iron_pickaxe"
+                        "items": ["minecraft:iron_pickaxe"]
                     }
                 ]
             }
@@ -306,7 +306,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:golden_pickaxe"
+                        "items": ["minecraft:golden_pickaxe"]
                     }
                 ]
             }
@@ -316,7 +316,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:diamond_pickaxe"
+                        "items": ["minecraft:diamond_pickaxe"]
                     }
                 ]
             }

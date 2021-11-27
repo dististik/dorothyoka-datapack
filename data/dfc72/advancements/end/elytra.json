@@ -18,9 +18,10 @@
 		"lava": {
 			"trigger": "minecraft:item_durability_changed",
 			"conditions": {
-				"item": {
-					"item": "minecraft:elytra"
-				}
+				"item":
+					{
+						"items": ["minecraft:elytra"]
+					}
 			}
 		}
 	},
