@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Collectathon"
+        },
+        "description": {
+            "text": "An exciting life as a hoarder awaits you.",
+            "bold": false,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+        },
+        "icon": {
+            "item": "minecraft:chest"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/block/bookshelf.png"
+    },
+    "criteria": {
+        "chest": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "dfc72:containers"
+                    }
+                ]
+            }
+        }
+    }
+}
