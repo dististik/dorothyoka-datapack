@@ -38,10 +38,6 @@
 									}
 								},
 								{
-									"function": "minecraft:set_nbt",
-									"tag": "{droppedByRawBlock:1b}"
-								},
-								{
 									"function": "minecraft:explosion_decay"
 								}
 							],
