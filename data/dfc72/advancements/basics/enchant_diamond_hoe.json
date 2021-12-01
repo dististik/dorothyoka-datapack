@@ -20,7 +20,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:diamond_hoe",
+                        "items": ["minecraft:diamond_hoe"],
                         "enchantments": [
                             {
                                 "enchantment": "minecraft:efficiency"
@@ -35,7 +35,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:diamond_hoe",
+                        "items": ["minecraft:diamond_hoe"],
                         "enchantments": [
                             {
                                 "enchantment": "minecraft:fortune"
@@ -50,7 +50,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:diamond_hoe",
+                        "items": ["minecraft:diamond_hoe"],
                         "enchantments": [
                             {
                                 "enchantment": "minecraft:unbreaking"
@@ -65,7 +65,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:diamond_hoe",
+                        "items": ["minecraft:diamond_hoe"],
                         "enchantments": [
                             {
                                 "enchantment": "minecraft:silk_touch"
@@ -80,7 +80,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:diamond_hoe",
+                        "items": ["minecraft:diamond_hoe"],
                         "enchantments": [
                             {
                                 "enchantment": "minecraft:mending"
@@ -95,7 +95,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:diamond_hoe",
+                        "items": ["minecraft:diamond_hoe"],
                         "enchantments": [
                             {
                                 "enchantment": "minecraft:vanishing_curse"
