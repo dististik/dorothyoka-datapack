@@ -526,6 +526,30 @@
                     "type": "minecraft:trader_llama"
                 }
             }
+        },
+        "axol": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:axolotl"
+                }
+            }
+        },
+        "goat": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:goat"
+                }
+            }
+        },
+        "dreamistoblame": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:glow_squid"
+                }
+            }
         }
     },
     "requirements": [
@@ -580,7 +604,10 @@
         ["fox"],
         ["cow"],
         ["chicken"],
-        ["bat"]
+        ["bat"],
+        ["axol"],
+        ["goat"],
+        ["dreamistoblame"]
     ],
     "parent": "dfc72:basics/kill_all_hostile_mobs"
 }
