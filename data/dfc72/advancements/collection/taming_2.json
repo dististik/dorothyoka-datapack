@@ -1,0 +1,691 @@
+{
+	"display": {
+		"title": {
+			"text": "Tower of Love"
+		},
+		"description": {
+			"text": "Make crazy cat ladies seem tame.",
+			"bold": false,
+			"italic": false,
+			"underlined": false,
+			"strikethrough": false,
+			"obfuscated": false
+		},
+		"icon": {
+			"item": "minecraft:glow_berries"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"dog": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:wolf"
+				}
+			}
+		},
+		"cat0": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:cat",
+					"nbt": "{CatType:0}"
+				}
+			}
+		},
+		"cat1": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:cat",
+					"nbt": "{CatType:1}"
+				}
+			}
+		},
+		"cat2": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:cat",
+					"nbt": "{CatType:2}"
+				}
+			}
+		},
+		"cat3": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:cat",
+					"nbt": "{CatType:3}"
+				}
+			}
+		},
+		"cat4": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:cat",
+					"nbt": "{CatType:4}"
+				}
+			}
+		},
+		"cat5": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:cat",
+					"nbt": "{CatType:5}"
+				}
+			}
+		},
+		"cat6": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:cat",
+					"nbt": "{CatType:6}"
+				}
+			}
+		},
+		"cat7": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:cat",
+					"nbt": "{CatType:7}"
+				}
+			}
+		},
+		"cat8": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:cat",
+					"nbt": "{CatType:8}"
+				}
+			}
+		},
+		"cat9": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:cat",
+					"nbt": "{CatType:1}"
+				}
+			}
+		},
+		"cat10": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:cat",
+					"nbt": "{CatType:10}"
+				}
+			}
+		},
+		"parrot0": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:parrot",
+					"nbt": "{Variant:0}"
+				}
+			}
+		},
+		"parrot1": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:parrot",
+					"nbt": "{Variant:1}"
+				}
+			}
+		},
+		"parrot2": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:parrot",
+					"nbt": "{Variant:2}"
+				}
+			}
+		},
+		"parrot3": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:parrot",
+					"nbt": "{Variant:3}"
+				}
+			}
+		},
+		"parrot4": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:parrot",
+					"nbt": "{Variant:4}"
+				}
+			}
+		},
+		"honse0_0": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:0}"
+				}
+			}
+		},
+		"honse0_1": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:1}"
+				}
+			}
+		},
+		"honse0_2": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:2}"
+				}
+			}
+		},
+		"honse0_3": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:3}"
+				}
+			}
+		},
+		"honse0_4": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:4}"
+				}
+			}
+		},
+		"honse0_5": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:5}"
+				}
+			}
+		},
+		"honse0_6": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:6}"
+				}
+			}
+		},
+		"honse1_0": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:256}"
+				}
+			}
+		},
+		"honse1_1": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:257}"
+				}
+			}
+		},
+		"honse1_2": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:258}"
+				}
+			}
+		},
+		"honse1_3": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:259}"
+				}
+			}
+		},
+		"honse1_4": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:260}"
+				}
+			}
+		},
+		"honse1_5": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:261}"
+				}
+			}
+		},
+		"honse1_6": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:262}"
+				}
+			}
+		},
+		"honse2_0": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:512}"
+				}
+			}
+		},
+		"honse2_1": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:513}"
+				}
+			}
+		},
+		"honse2_2": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:514}"
+				}
+			}
+		},
+		"honse2_3": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:515}"
+				}
+			}
+		},
+		"honse2_4": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:516}"
+				}
+			}
+		},
+		"honse2_5": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:517}"
+				}
+			}
+		},
+		"honse2_6": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:518}"
+				}
+			}
+		},
+		"honse3_0": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:768}"
+				}
+			}
+		},
+		"honse3_1": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:769}"
+				}
+			}
+		},
+		"honse3_2": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:770}"
+				}
+			}
+		},
+		"honse3_3": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:771}"
+				}
+			}
+		},
+		"honse3_4": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:772}"
+				}
+			}
+		},
+		"honse3_5": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:773}"
+				}
+			}
+		},
+		"honse3_6": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:774}"
+				}
+			}
+		},
+		"honse4_0": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:1024}"
+				}
+			}
+		},
+		"honse4_1": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:1025}"
+				}
+			}
+		},
+		"honse4_2": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:1026}"
+				}
+			}
+		},
+		"honse4_3": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:1027}"
+				}
+			}
+		},
+		"honse4_4": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:1028}"
+				}
+			}
+		},
+		"honse4_5": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:1029}"
+				}
+			}
+		},
+		"honse4_6": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:1030}"
+				}
+			}
+		},
+		"honse5": {
+			"trigger": "minecraft:started_riding",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"vehicle": {
+								"type": "minecraft:skeleton_horse"
+							}
+						}
+					}
+				]
+			}
+		},
+		"llama0_0": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:llama",
+					"nbt": "{Variant:0}"
+				}
+			}
+		},
+		"llama0_1": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:llama",
+					"nbt": "{Variant:1}"
+				}
+			}
+		},
+		"llama0_2": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:llama",
+					"nbt": "{Variant:2}"
+				}
+			}
+		},
+		"llama0_3": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:llama",
+					"nbt": "{Variant:3}"
+				}
+			}
+		},
+		"llama1_0": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:trader_llama",
+					"nbt": "{Variant:0}"
+				}
+			}
+		},
+		"llama1_1": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:trader_llama",
+					"nbt": "{Variant:1}"
+				}
+			}
+		},
+		"llama1_2": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:trader_llama",
+					"nbt": "{Variant:2}"
+				}
+			}
+		},
+		"llama1_3": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:trader_llama",
+					"nbt": "{Variant:3}"
+				}
+			}
+		},
+		"bees": {
+			"trigger": "minecraft:bee_nest_destroyed",
+			"conditions": {
+				"item": {
+					"enchantments": [
+						{
+							"enchantment": "minecraft:silk_touch",
+							"levels": {
+								"min": 1
+							}
+						}
+					]
+				},
+				"num_bees_inside": 3
+			}
+		},
+		"salmon": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:salmon_bucket"]
+					}
+				]
+			}
+		},
+		"cod": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:cod_bucket"]
+					}
+				]
+			}
+		},
+		"tropical": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:tropical_fish_bucket"]
+					}
+				]
+			}
+		},
+		"puffer": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:pufferfish_bucket"]
+					}
+				]
+			}
+		},
+		"axolorl0": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:axolotl_bucket"],
+						"nbt": "{Variant:0}"
+					}
+				]
+			}
+		},
+		"axolorl1": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:axolotl_bucket"],
+						"nbt": "{Variant:1}"
+					}
+				]
+			}
+		},
+		"axolorl2": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:axolotl_bucket"],
+						"nbt": "{Variant:2}"
+					}
+				]
+			}
+		},
+		"axolorl3": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:axolotl_bucket"],
+						"nbt": "{Variant:3}"
+					}
+				]
+			}
+		},
+		"axolorl4": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:axolotl_bucket"],
+						"nbt": "{Variant:4}"
+					}
+				]
+			}
+		}
+	},
+	"parent": "dfc72:collection/bucket_fishing"
+}

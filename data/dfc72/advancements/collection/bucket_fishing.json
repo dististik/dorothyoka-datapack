@@ -1,0 +1,82 @@
+{
+	"display": {
+		"title": {
+			"text": "Aquatic Life Preservation"
+		},
+		"description": {
+			"text": "You could start an aquarium at this rate!",
+			"bold": false,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+		},
+		"icon": {
+			"item": "minecraft:axolotl_bucket"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"salmon": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:salmon_bucket"]
+                    }
+                ]
+            }
+		},
+		"cod": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:cod_bucket"]
+                    }
+                ]
+            }
+		},
+		"tropical": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:tropical_fish_bucket"]
+                    }
+                ]
+            }
+		},
+		"puffer": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:pufferfish_bucket"]
+                    }
+                ]
+            }
+		},
+		"axolorl": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:axolotl_bucket"]
+                    }
+                ]
+            }
+		}
+	},
+	"requirements": [
+		["salmon"],
+		["cod"],
+		["tropical"],
+		["puffer"],
+		["axolorl"]
+	],
+	"parent": "dfc72:collection/taming_1"
+}

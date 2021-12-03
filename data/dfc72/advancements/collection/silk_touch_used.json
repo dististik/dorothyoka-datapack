@@ -1,0 +1,299 @@
+{
+	"display": {
+		"title": {
+			"text": "Silky Smooth"
+		},
+		"description": {
+			"text": "Preserve the nautral form of delicate blocks."
+		},
+		"icon": {
+			"item": "minecraft:budding_amethyst"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"amethyst_1": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:small_amethyst_bud"]
+					}
+				]
+			}
+		},
+		"amethyst_2": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:medium_amethyst_bud"]
+					}
+				]
+			}
+		},
+		"amethyst_3": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:large_amethyst_bud"]
+					}
+				]
+			}
+		},
+		"amethyst_4": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:amethyst_cluster"]
+					}
+				]
+			}
+		},
+		"bees": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:bee_nest"]
+					}
+				]
+			}
+		},
+		"coal_1": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:coal_ore"]
+					}
+				]
+			}
+		},
+		"coal_2": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:deepslate_coal_ore"]
+					}
+				]
+			}
+		},
+		"emerald_1": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:emerald_ore"]
+					}
+				]
+			}
+		},
+		"emerald_2": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:deepslate_emerald_ore"]
+					}
+				]
+			}
+		},
+		"diamond_1": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:diamond_ore"]
+					}
+				]
+			}
+		},
+		"diamond_2": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:deepslate_diamond_ore"]
+					}
+				]
+			}
+		},
+		"redstone_1": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:redstone_ore"]
+					}
+				]
+			}
+		},
+		"redstone_2": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:deepslate_redstone_ore"]
+					}
+				]
+			}
+		},
+		"lapis_1": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:lapis_ore"]
+					}
+				]
+			}
+		},
+		"lapis_2": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:deepslate_lapis_ore"]
+					}
+				]
+			}
+		},
+		"quartz": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:nether_quartz_ore"]
+					}
+				]
+			}
+		},
+		"grass": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:grass_block"]
+					}
+				]
+			}
+		},
+		"ice": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:ice"]
+					}
+				]
+			}
+		},
+		"spawner": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:spawner"]
+					}
+				]
+			}
+		},
+		"raw_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:raw_gold_block"]
+					}
+				]
+			}
+		},
+		"raw_iron": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:raw_iron_block"]
+					}
+				]
+			}
+		},
+		"raw_copper": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:raw_copper_block"]
+					}
+				]
+			}
+		},
+		"myscelium": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:mycelium"]
+					}
+				]
+			}
+		},
+		"nylium_1": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:warped_nylium"]
+					}
+				]
+			}
+		},
+		"nylium_2": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:crimson_nylium"]
+					}
+				]
+			}
+		},
+		"turtle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:turtle_egg"]
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		["amethyst_1","amethyst_2","amethyst_3","amethyst_4"],
+		["bees"],
+		["coal_1","coal_2"],
+		["emerald_1","emerald_2"],
+		["redstone_1","redstone_2"],
+		["diamond_1","diamond_2"],
+		["lapis_1","lapis_2"],
+		["quartz"],
+		["grass"],
+		["ice"],
+		["spawner"],
+		["raw_iron"],
+		["raw_gold"],
+		["raw_copper"],
+		["myscelium"],
+		["nylium_1","nylium_2"],
+		["turtle"]
+	],
+	"parent": "dfc72:collection/silk_touch"
+}
