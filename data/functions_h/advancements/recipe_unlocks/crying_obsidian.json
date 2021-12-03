@@ -5,7 +5,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:popped_chorus_fruit"
+                        "items": ["minecraft:popped_chorus_fruit"]
                     }
                 ]
             }
