@@ -20,7 +20,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:golden_boots"
+                        "items": ["minecraft:golden_boots"]
                     }
                 ]
             }

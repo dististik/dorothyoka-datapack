@@ -20,7 +20,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:nether_gold_ore"
+                        "items": ["minecraft:nether_gold_ore"]
                     }
                 ]
             }

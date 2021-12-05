@@ -16,7 +16,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item": "minecraft:creeper_head",
+						"items": ["minecraft:creeper_head"],
 						"count": {
 							"min": 1
 						}
@@ -29,7 +29,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item": "minecraft:skeleton_skull",
+						"items": ["minecraft:skeleton_skull"],
 						"count": {
 							"min": 1
 						}
@@ -42,7 +42,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item": "minecraft:wither_skeleton_skull",
+						"items": ["minecraft:wither_skeleton_skull"],
 						"count": {
 							"min": 1
 						}
@@ -55,7 +55,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item": "minecraft:zombie_head",
+						"items": ["minecraft:zombie_head"],
 						"count": {
 							"min": 1
 						}

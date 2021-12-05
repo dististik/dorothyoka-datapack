@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#  ",
+        "   ",
+        " 03"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:structure_block"
+        },
+        "0": {
+            "item": "minecraft:trident"
+        },
+        "3": {
+        	"item": "minecraft:barrier"
+        }
+    },
+    "result": {
+        "item": "minecraft:dirt",
+        "count": 1
+    }
+}

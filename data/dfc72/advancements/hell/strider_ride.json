@@ -18,9 +18,10 @@
         "xxx": {
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
-                "item": {
-                    "item": "minecraft:warped_fungus_on_a_stick"
-                }
+                "item":
+                    {
+                        "items": ["minecraft:warped_fungus_on_a_stick"]
+                    }
             }
         }
     },

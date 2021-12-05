@@ -1,0 +1,35 @@
+{
+	"display": {
+		"title": {
+			"text": "Block Palette Expansion DLC"
+		},
+		"description": {
+			"text": "Enchant a tool with silk touch."
+		},
+		"icon": {
+			"item": "diamond_pickaxe",
+			"nbt": "{Enchantments:[{id:\"minecraft:protection\",lvl:1s}]}"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"silk_touch": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:silk_touch"
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"parent": "dfc72:collection/root"
+}

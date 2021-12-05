@@ -1,0 +1,181 @@
+{
+	"display": {
+		"title": {
+			"text": "Record Collector"
+		},
+		"description": {
+			"text": "Collect one of every music disc.",
+			"bold": false,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+		},
+		"icon": {
+			"item": "minecraft:music_disc_chirp"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"thirteen": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:music_disc_13"]
+                    }
+                ]
+            }
+		},
+		"cat": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:music_disc_cat"]
+                    }
+                ]
+            }
+		},
+		"blocks": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:music_disc_blocks"]
+                    }
+                ]
+            }
+		},
+		"chirp": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:music_disc_chirp"]
+                    }
+                ]
+            }
+		},
+		"far": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:music_disc_far"]
+                    }
+                ]
+            }
+		},
+		"mall": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:music_disc_mall"]
+                    }
+                ]
+            }
+		},
+		"mellohi": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:music_disc_mellohi"]
+                    }
+                ]
+            }
+		},
+		"stal": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:music_disc_stal"]
+                    }
+                ]
+            }
+		},
+		"strad": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:music_disc_strad"]
+                    }
+                ]
+            }
+		},
+		"ward": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:music_disc_ward"]
+                    }
+                ]
+            }
+		},
+		"eleven": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:music_disc_11"]
+                    }
+                ]
+            }
+		},
+		"wait": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:music_disc_wait"]
+                    }
+                ]
+            }
+		},
+		"otherside": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:music_disc_otherside"]
+                    }
+                ]
+            }
+		},
+		"pigstep": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:music_disc_pigstep"]
+                    }
+                ]
+            }
+		}
+	},
+	"requirements": [
+		["thirteen"],
+		["chirp"],
+		["pigstep"],
+		["otherside"],
+		["wait"],
+		["eleven"],
+		["ward"],
+		["strad"],
+		["stal"],
+		["mellohi"],
+		["mall"],
+		["blocks"],
+		["cat"],
+		["far"]
+	],
+	"parent": "dfc72:collection/root"
+}

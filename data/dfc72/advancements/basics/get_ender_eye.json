@@ -20,11 +20,11 @@
             "conditions": {
                 "location": {
                     "block": {
-                        "block": "minecraft:end_portal_frame"
+                        "blocks": ["minecraft:end_portal_frame"]
                     }
                 },
                 "item": {
-                    "item": "minecraft:ender_eye"
+                    "items": ["minecraft:ender_eye"]
                 }
             }
         }

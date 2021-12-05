@@ -20,7 +20,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:fishing_rod"
+                        "items": ["minecraft:fishing_rod"]
                     }
                 ]
             }
@@ -30,7 +30,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:shears"
+                        "items": ["minecraft:shears"]
                     }
                 ]
             }
@@ -40,7 +40,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:flint_and_steel"
+                        "items": ["minecraft:flint_and_steel"]
                     }
                 ]
             }
@@ -50,7 +50,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:compass"
+                        "items": ["minecraft:compass"]
                     }
                 ]
             }
@@ -60,7 +60,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:bucket"
+                        "items": ["minecraft:bucket"]
                     }
                 ]
             }

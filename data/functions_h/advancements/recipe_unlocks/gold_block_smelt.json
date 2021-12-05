@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "disable": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:raw_gold_block"]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "dfc72:gold_block_from_raw",
+            "dfc72:gold_block_from_raw2"
+        ]
+    }
+}

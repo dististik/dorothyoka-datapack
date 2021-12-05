@@ -1,0 +1,28 @@
+{
+	"display": {
+		"title": {
+			"text": "Furry Friends"
+		},
+		"description": {
+			"text": "Tame an animal.",
+			"bold": false,
+			"italic": false,
+			"obfuscated": false,
+			"underlined": false,
+			"strikethrough": false
+		},
+		"icon": {
+			"item": "minecraft:bone"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:tame_animal"
+		}
+	},
+	"parent": "dfc72:collection/root"
+}

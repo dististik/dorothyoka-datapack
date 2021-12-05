@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:repeater"
+		},
+		"title": "Please Standby",
+		"description": "Create a redstone delay of two ticks using one repeater.",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"xxx": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"blocks": ["minecraft:repeater"]
+					}
+				}
+			}
+		}
+	},
+	"parent": "dfc72:expiriment/root"
+}

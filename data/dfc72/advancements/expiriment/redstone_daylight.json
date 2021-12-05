@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:daylight_detector"
+		},
+		"title": "Daylight Savings Time",
+		"description": "Create a redstone pulse from a daylight detector at night.",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"xxx": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"blocks": ["minecraft:daylight_detector"]
+					},
+					"light": {
+						"min": 0,
+						"max": 4
+					}
+				}
+			}
+		}
+	},
+	"parent": "dfc72:expiriment/redstone_repeater"
+}

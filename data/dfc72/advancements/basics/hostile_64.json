@@ -20,7 +20,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:rotten_flesh",
+                        "items": ["minecraft:rotten_flesh"],
                         "count": {
                             "min": 64
                         }
@@ -33,7 +33,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:ender_pearl",
+                        "items": ["minecraft:ender_pearl"],
                         "count": {
                             "min": 64
                         }
@@ -46,7 +46,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:bone",
+                        "items": ["minecraft:bone"],
                         "count": {
                             "min": 64
                         }
@@ -59,7 +59,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:gunpowder",
+                        "items": ["minecraft:gunpowder"],
                         "count": {
                             "min": 64
                         }
@@ -72,7 +72,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:ghast_tear",
+                        "items": ["minecraft:ghast_tear"],
                         "count": {
                             "min": 64
                         }
@@ -85,7 +85,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:slime_ball",
+                        "items": ["minecraft:slime_ball"],
                         "count": {
                             "min": 64
                         }

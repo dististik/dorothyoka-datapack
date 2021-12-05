@@ -33,7 +33,7 @@
                   "function": "minecraft:set_count",
                   "count": {
                     "min": 5.0,
-                    "max": 8.0,
+                    "max": 9.0,
                     "type": "minecraft:uniform"
                   }
                 },

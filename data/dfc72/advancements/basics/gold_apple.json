@@ -20,7 +20,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:golden_apple"
+                        "items": ["minecraft:golden_apple"]
                     }
                 ]
             }
@@ -30,7 +30,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:enchanted_golden_apple"
+                        "items": ["minecraft:enchanted_golden_apple"]
                     }
                 ]
             }
