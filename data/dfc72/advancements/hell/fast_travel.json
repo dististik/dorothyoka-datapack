@@ -26,5 +26,8 @@
 			}
 		}
 	},
-	"parent": "dfc72:hell/root"
+	"parent": "dfc72:hell/root",
+	"rewards": {
+		"function": "functions_h:challenge_ruby/3_fast"
+	}
 }

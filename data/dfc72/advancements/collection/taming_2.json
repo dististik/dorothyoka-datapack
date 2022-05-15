@@ -587,8 +587,7 @@
 							}
 						}
 					]
-				},
-				"num_bees_inside": 3
+				}
 			}
 		},
 		"salmon": {
@@ -687,5 +686,28 @@
 			}
 		}
 	},
-	"parent": "dfc72:collection/bucket_fishing"
+	"parent": "dfc72:collection/bucket_fishing",
+    "rewards": {
+        "function": "functions_h:challenge_ruby/9_tower"
+    },
+    "requirements": [
+    	["dog"],
+    	["cat0"],["cat1"],["cat2"],["cat3"],["cat4"],["cat5"],["cat6"],["cat7"],["cat8"],["cat9"],["cat10"],
+    	["parrot0"],["parrot1"],["parrot2"],["parrot3"],["parrot4"],
+    	["honse0_0","honse1_0","honse2_0","honse3_0","honse4_0"],
+    	["honse0_1","honse1_1","honse2_1","honse3_1","honse4_1"],
+    	["honse0_2","honse1_2","honse2_2","honse3_2","honse4_2"],
+    	["honse0_3","honse1_3","honse2_3","honse3_3","honse4_3"],
+    	["honse0_4","honse1_4","honse2_4","honse3_4","honse4_4"],
+    	["honse0_5","honse1_5","honse2_5","honse3_5","honse4_5"],
+    	["honse0_6","honse1_6","honse2_6","honse3_6","honse4_6"],
+    	["honse5"],
+    	["llama0_0","llama1_0"],
+    	["llama0_1","llama1_1"],
+    	["llama0_2","llama1_2"],
+    	["llama0_3","llama1_3"],
+    	["bees"],
+    	["salmon"],["cod"],["tropical"],["puffer"],
+    	["axolorl0"],["axolorl1"],["axolorl2"],["axolorl3"],["axolorl4"]
+    ]
 }

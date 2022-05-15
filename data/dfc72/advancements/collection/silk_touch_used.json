@@ -295,5 +295,8 @@
 		["nylium_1","nylium_2"],
 		["turtle"]
 	],
-	"parent": "dfc72:collection/silk_touch"
+	"parent": "dfc72:collection/silk_touch",
+    "rewards": {
+        "experience": 15
+    }
 }

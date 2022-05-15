@@ -26,5 +26,8 @@
             }
         }
     },
-    "parent": "dfc72:basics/other_tools"
+    "parent": "dfc72:basics/other_tools",
+    "rewards": {
+        "experience": 15
+    }
 }

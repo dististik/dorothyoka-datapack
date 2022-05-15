@@ -9,7 +9,7 @@
         "icon": {
             "item": "minecraft:ender_eye"
         },
-        "frame": "challenge",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
@@ -29,5 +29,8 @@
             }
         }
     },
-    "parent": "dfc72:basics/get_obsidian"
+    "parent": "dfc72:basics/get_obsidian",
+    "rewards": {
+        "experience": 15
+    }
 }

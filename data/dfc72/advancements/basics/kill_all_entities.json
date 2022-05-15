@@ -609,5 +609,8 @@
         ["goat"],
         ["dreamistoblame"]
     ],
-    "parent": "dfc72:basics/kill_all_hostile_mobs"
+    "parent": "dfc72:basics/kill_all_hostile_mobs",
+    "rewards": {
+        "function": "functions_h:challenge_ruby/1_what"
+    }
 }

@@ -177,5 +177,8 @@
 		["cat"],
 		["far"]
 	],
-	"parent": "dfc72:collection/root"
+	"parent": "dfc72:collection/root",
+    "rewards": {
+        "experience": 15
+    }
 }
