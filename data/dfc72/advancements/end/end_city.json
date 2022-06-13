@@ -18,7 +18,17 @@
         "lava": {
             "trigger": "minecraft:location",
             "conditions": {
-                "feature": "endcity"
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structure": "minecraft:end_city"
+                            }
+                        }
+                    }
+                ]   
             }
         }
     },
