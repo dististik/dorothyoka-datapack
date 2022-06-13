@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "disable": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:glow_berries"]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "dfc72:glowstone_dust"
+        ]
+    }
+}

@@ -274,5 +274,8 @@
         ["spider"],
         ["super_fucker"]
     ],
-    "parent": "dfc72:basics/kill_all_nether_mobs"
+    "parent": "dfc72:basics/kill_all_nether_mobs",
+    "rewards": {
+        "experience": 15
+    }
 }

@@ -26,5 +26,8 @@
             }
         }
     },
-    "parent": "dfc72:hell/remnants"
+    "parent": "dfc72:hell/remnants",
+    "rewards": {
+        "experience": 15
+    }
 }

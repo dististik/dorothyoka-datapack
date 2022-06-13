@@ -26,5 +26,8 @@
             }
         }
     },
-    "parent": "dfc72:hell/strider_ride"
+    "parent": "dfc72:hell/strider_ride",
+    "rewards": {
+        "experience": 15
+    }
 }

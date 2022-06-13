@@ -70,5 +70,8 @@
 		["spooky"],
 		["skeleton"],
 		["creeper"]
-	]
+	],
+    "rewards": {
+        "experience": 15
+    }
 }

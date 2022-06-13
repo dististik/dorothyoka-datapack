@@ -27,5 +27,8 @@
             }
         }
     },
-    "parent": "dfc72:hell/wither"
+    "parent": "dfc72:hell/wither",
+    "rewards": {
+        "function": "functions_h:challenge_ruby/8_massive"
+    }
 }

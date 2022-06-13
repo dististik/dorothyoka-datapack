@@ -24,5 +24,8 @@
             }
         }
     },
-    "parent": "dfc72:end/root"
+    "parent": "dfc72:end/root",
+    "rewards": {
+        "experience": 15
+    }
 }

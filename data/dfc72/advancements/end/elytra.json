@@ -25,5 +25,8 @@
 			}
 		}
 	},
-	"parent": "dfc72:end/end_city"
+	"parent": "dfc72:end/end_city",
+    "rewards": {
+        "experience": 15
+    }
 }

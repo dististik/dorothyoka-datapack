@@ -1,0 +1,10 @@
+{
+	"criteria":{
+		"req": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "functions_h:challenge_ruby/ruby_grant"
+	}
+}

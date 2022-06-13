@@ -26,5 +26,8 @@
             }
         }
     },
-    "parent": "dfc72:basics/get_iron"
+    "parent": "dfc72:basics/get_iron",
+    "rewards": {
+        "experience": 15
+    }
 }

@@ -128,5 +128,8 @@
             "mending"
         ]
     ],
-    "parent": "dfc72:basics/enchant_diamond_hoe"
+    "parent": "dfc72:basics/enchant_diamond_hoe",
+    "rewards": {
+        "function": "functions_h:challenge_ruby/2_are"
+    }
 }

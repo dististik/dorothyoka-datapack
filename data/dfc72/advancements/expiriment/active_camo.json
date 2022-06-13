@@ -94,5 +94,8 @@
 		["wither"],
 		["creeper"],
 		["dragon"]
-	]
+	],
+    "rewards": {
+        "function": "functions_h:challenge_ruby/4_when"
+    }
 }
