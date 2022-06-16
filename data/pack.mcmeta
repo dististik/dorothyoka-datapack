@@ -7,23 +7,7 @@
 		"block": [
 			{
 				"namespace": "minecraft",
-				"path": "advancements/adventure/.*"
-			},
-			{
-				"namespace": "minecraft",
-				"path": "advancements/end/.*"
-			},
-			{
-				"namespace": "minecraft",
-				"path": "advancements/husbandry/.*"
-			},
-			{
-				"namespace": "minecraft",
-				"path": "advancements/nether/.*"
-			},
-			{
-				"namespace": "minecraft",
-				"path": "advancements/story/.*"
+				"path": "advancements/(adventure|end|husbandry|nether|story)/.*"
 			},
 			{
 				"namespace": "minecraft",
@@ -31,19 +15,15 @@
 			},
 			{
 				"namespace": "minecraft",
-				"path": "advancements/recipes/misc/.{4,6}_ingot_from_.{8}_raw.*"
+				"path": "((recipes)|(advancements/recipes/misc))/.{4,6}_ingot_from_.{8}_raw.*"
 			},
 			{
 				"namespace": "minecraft",
-				"path": "advancements/recipes/misc/raw_.{4,6}"
+				"path": "((recipes)|(advancements/recipes/misc))/raw_.{4,6}"
 			},
 			{
 				"namespace": "minecraft",
-				"path": "recipes/raw_.*"
-			},
-			{
-				"namespace": "minecraft",
-				"path": "recipes/.{4,6}_ingot_from_.{8}_raw.*"
+				"path": "((recipes)|(advancements/recipes/misc))/music_disc_5"
 			}
 		]
 	}
