@@ -2,11 +2,18 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "# #",
-        " # "
+        "X#X",
+        "P P"
     ],
     "key": {
         "#": {
             "item": "minecraft:leather"
+        },
+        "X": {
+            "item": "minecraft:string"
+        },
+        "P": {
+            "item": "minecraft:iron_ingot"
         }
     },
     "result": {
