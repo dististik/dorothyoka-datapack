@@ -28,7 +28,8 @@
                                 	"y": {
                                 		"min": 128
                                 	}
-                                }
+                                },
+                                "dimension": "minecraft:the_nether"
                             }
                         }
                     }
