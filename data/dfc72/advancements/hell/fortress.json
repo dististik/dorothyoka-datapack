@@ -18,9 +18,17 @@
         "fortress": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "feature": "fortress"
-                }
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structure": "minecraft:fortress"
+                            }
+                        }
+                    }
+                ]   
             }
         }
     },

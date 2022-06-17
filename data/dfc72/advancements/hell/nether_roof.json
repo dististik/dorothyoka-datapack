@@ -1,32 +1,40 @@
 {
-  "display": {
-    "icon": {
-      "item": "minecraft:bedrock"
-    },
-    "title": "Lost in Limbo",
-    "description": "Now you REALLY need an escape plan.",
-    "frame": "challenge",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": true
-  },
-  "parent": "dfc72:hell/no_escape",
-    "rewards": {
-        "function": "functions_h:challenge_ruby/7_lost"
-    },
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "location": {
-          "position": {
-            "y": {
-              "min": 128
+	"display": {
+		"icon": {
+			"item": "minecraft:bedrock"
+		},
+		"title": "Lost in Limbo",
+		"description": "Now you REALLY need an escape plan.",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"parent": "dfc72:hell/no_escape",
+		"rewards": {
+				"function": "functions_h:challenge_ruby/7_lost"
+		},
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:location",
+			"conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "position": {
+                                	"y": {
+                                		"min": 128
+                                	}
+                                },
+                                "dimension": "minecraft:the_nether"
+                            }
+                        }
+                    }
+                ]   
             }
-          },
-          "dimension": "minecraft:the_nether"
-        }
-      }
-    }
-  }
+		}
+	}
 }

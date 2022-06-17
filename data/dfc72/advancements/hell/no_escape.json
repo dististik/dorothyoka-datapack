@@ -18,12 +18,22 @@
         "xxx": {
             "trigger": "minecraft:location",
             "conditions": {
-                "dimension": "the_nether",
-                "position": {
-                    "y": {
-                        "min": 122
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "position": {
+                                    "y": {
+                                        "min": 122
+                                    }
+                                },
+                                "dimension": "minecraft:the_nether"
+                            }
+                        }
                     }
-                }
+                ]   
             }
         }
     },

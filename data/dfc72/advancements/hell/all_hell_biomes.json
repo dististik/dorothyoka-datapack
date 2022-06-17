@@ -18,66 +18,130 @@
     	"wastes": {
     		"trigger": "minecraft:location",
     		"conditions": {
-    			"location": {
-    				"biome": "minecraft:nether_wastes"
-    			}
-    		}
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "biome": "minecraft:nether_wastes"
+                            }
+                        }
+                    }
+                ]   
+            }
     	},
     	"valley": {
     		"trigger": "minecraft:location",
     		"conditions": {
-    			"location": {
-    				"biome": "minecraft:soul_sand_valley"
-    			}
-    		}
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "biome": "minecraft:soul_sand_valley"
+                            }
+                        }
+                    }
+                ]   
+            }
     	},
     	"crimson": {
     		"trigger": "minecraft:location",
     		"conditions": {
-    			"location": {
-    				"biome": "minecraft:crimson_forest"
-    			}
-    		}
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "biome": "minecraft:crimson_forest"
+                            }
+                        }
+                    }
+                ]   
+            }
     	},
     	"vermillion": {
     		"trigger": "minecraft:location",
     		"conditions": {
-    			"location": {
-    				"biome": "minecraft:warped_forest"
-    			}
-    		}
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "biome": "minecraft:warped_forest"
+                            }
+                        }
+                    }
+                ]   
+            }
     	},
     	"basalt": {
     		"trigger": "minecraft:location",
     		"conditions": {
-    			"location": {
-    				"biome": "minecraft:basalt_deltas"
-    			}
-    		}
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "biome": "minecraft:basalt_deltas"
+                            }
+                        }
+                    }
+                ]   
+            }
     	},
     	"portal": {
     		"trigger": "minecraft:location",
     		"conditions": {
-    			"location": {
-    				"feature": "ruined_portal"
-    			}
-    		}
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structure": "minecraft:ruined_portal"
+                            }
+                        }
+                    }
+                ]   
+            }
     	},
     	"fortress": {
     		"trigger": "minecraft:location",
     		"conditions": {
-    			"location": {
-    				"feature": "fortress"
-    			}
-    		}
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structure": "minecraft:fortress"
+                            }
+                        }
+                    }
+                ]   
+            }
     	},
     	"remnants": {
     		"trigger": "minecraft:location",
     		"conditions": {
-    			"location": {
-    				"feature": "bastion_remnant"
-    			}
-    		}
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structure": "minecraft:bastion_remnant"
+                            }
+                        }
+                    }
+                ]   
+            }
     	}
     },
     "requirements":[

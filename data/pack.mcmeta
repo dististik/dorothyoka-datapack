@@ -1,6 +1,30 @@
 {
 	"pack" : {
-		"pack_format" : 7,
-		"description" : "Dorothy's MC Expansion 2.1 (latest test: 1.18.1)"
+		"pack_format" : 10,
+		"description" : "Dorothy's MC Expansion 3.0 (latest test: 1.19.0)"
+	},
+	"filter": {
+		"block": [
+			{
+				"namespace": "minecraft",
+				"path": "advancements/(adventure|end|husbandry|nether|story)/.*"
+			},
+			{
+				"namespace": "minecraft",
+				"path": "advancements/recipes/building_blocks/raw_.*"
+			},
+			{
+				"namespace": "minecraft",
+				"path": "((recipes)|(advancements/recipes/misc))/.{4,6}_ingot_from_.{8}_raw.*"
+			},
+			{
+				"namespace": "minecraft",
+				"path": "((recipes)|(advancements/recipes/misc))/raw_.{4,6}"
+			},
+			{
+				"namespace": "minecraft",
+				"path": "((recipes)|(advancements/recipes/misc))/music_disc_5"
+			}
+		]
 	}
 }

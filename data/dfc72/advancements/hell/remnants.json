@@ -18,9 +18,17 @@
         "remnants": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "feature": "bastion_remnant"
-                }
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structure": "minecraft:bastion_remnant"
+                            }
+                        }
+                    }
+                ]   
             }
         }
     },
