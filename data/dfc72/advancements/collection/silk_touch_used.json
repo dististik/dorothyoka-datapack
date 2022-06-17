@@ -274,6 +274,46 @@
 					}
 				]
 			}
+		},
+		"sculk": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:sculk"]
+					}
+				]
+			}
+		},
+		"sensor": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:sculk_sensor"]
+					}
+				]
+			}
+		},
+		"shrieker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:sculk_shrieker"]
+					}
+				]
+			}
+		},
+		"catalyst": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:sculk_catalyst"]
+					}
+				]
+			}
 		}
 	},
 	"requirements": [
@@ -293,7 +333,11 @@
 		["raw_copper"],
 		["myscelium"],
 		["nylium_1","nylium_2"],
-		["turtle"]
+		["turtle"],
+		["sculk"],
+		["shrieker"],
+		["sensor"],
+		["catalyst"]
 	],
 	"parent": "dfc72:collection/silk_touch",
     "rewards": {

@@ -159,7 +159,17 @@
                     }
                 ]
             }
-		}
+		},
+        "five": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:music_disc_5"]
+                    }
+                ]
+            }
+        }
 	},
 	"requirements": [
 		["thirteen"],
@@ -175,7 +185,8 @@
 		["mall"],
 		["blocks"],
 		["cat"],
-		["far"]
+		["far"],
+        ["five"]
 	],
 	"parent": "dfc72:collection/root",
     "rewards": {

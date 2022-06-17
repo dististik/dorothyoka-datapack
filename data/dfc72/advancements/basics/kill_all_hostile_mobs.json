@@ -246,6 +246,14 @@
                     "type": "minecraft:wither"
                 }
             }
+        },
+        "warden": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:warden"
+                }
+            }
         }
     },
     "requirements": [
@@ -272,7 +280,8 @@
         ["endermite"],
         ["evoker"],
         ["spider"],
-        ["super_fucker"]
+        ["super_fucker"],
+        ["warden"]
     ],
     "parent": "dfc72:basics/kill_all_nether_mobs",
     "rewards": {

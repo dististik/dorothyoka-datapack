@@ -550,6 +550,46 @@
                     "type": "minecraft:glow_squid"
                 }
             }
+        },
+        "warden": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:warden"
+                }
+            }
+        },
+        "allay": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:allay"
+                }
+            }
+        },
+        "goat": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:goat"
+                }
+            }
+        },
+        "frog": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:frog"
+                }
+            }
+        },
+        "frog2": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:tadpole"
+                }
+            }
         }
     },
     "requirements": [
@@ -607,7 +647,12 @@
         ["bat"],
         ["axol"],
         ["goat"],
-        ["dreamistoblame"]
+        ["dreamistoblame"],
+        ["warden"],
+        ["allay"],
+        ["goat"],
+        ["frog"],
+        ["frog2"]
     ],
     "parent": "dfc72:basics/kill_all_hostile_mobs",
     "rewards": {
