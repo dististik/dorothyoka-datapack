@@ -684,11 +684,21 @@
 					}
 				]
 			}
+		},
+		"tadpole": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:tadpole_bucket"]
+					}
+				]
+			}
 		}
 	},
 	"parent": "dfc72:collection/bucket_fishing",
     "rewards": {
-        "function": "functions_h:challenge_ruby/9_tower"
+        "function": "functions_h:ruby_grant"
     },
     "requirements": [
     	["dog"],
@@ -708,6 +718,7 @@
     	["llama0_3","llama1_3"],
     	["bees"],
     	["salmon"],["cod"],["tropical"],["puffer"],
-    	["axolorl0"],["axolorl1"],["axolorl2"],["axolorl3"],["axolorl4"]
+    	["axolorl0"],["axolorl1"],["axolorl2"],["axolorl3"],["axolorl4"],
+    	["tadpole"]
     ]
 }

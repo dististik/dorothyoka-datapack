@@ -29,6 +29,6 @@
     },
     "parent": "dfc72:hell/wither",
     "rewards": {
-        "function": "functions_h:challenge_ruby/8_massive"
+        "function": "functions_h:ruby_grant"
     }
 }

@@ -28,6 +28,6 @@
 	},
 	"parent": "dfc72:hell/root",
 	"rewards": {
-		"function": "functions_h:challenge_ruby/3_fast"
+		"function": "functions_h:ruby_grant"
 	}
 }

@@ -41,6 +41,6 @@
 	},
 	"parent": "dfc72:expiriment/root",
     "rewards": {
-        "function": "functions_h:challenge_ruby/5_autoerotic"
+        "function": "functions_h:ruby_grant"
     }
 }

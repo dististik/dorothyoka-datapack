@@ -567,14 +567,6 @@
                 }
             }
         },
-        "goat": {
-            "trigger": "minecraft:player_killed_entity",
-            "conditions": {
-                "entity": {
-                    "type": "minecraft:goat"
-                }
-            }
-        },
         "frog": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
@@ -650,12 +642,11 @@
         ["dreamistoblame"],
         ["warden"],
         ["allay"],
-        ["goat"],
         ["frog"],
         ["frog2"]
     ],
     "parent": "dfc72:basics/kill_all_hostile_mobs",
     "rewards": {
-        "function": "functions_h:challenge_ruby/1_what"
+        "function": "functions_h:ruby_grant"
     }
 }

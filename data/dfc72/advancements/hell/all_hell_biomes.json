@@ -156,6 +156,6 @@
     ],
     "parent": "dfc72:hell/remnants",
     "rewards": {
-        "function": "functions_h:challenge_ruby/6_hellwalker"
+        "function": "functions_h:ruby_grant"
     }
 }

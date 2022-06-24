@@ -12,7 +12,7 @@
 	},
 	"parent": "dfc72:hell/no_escape",
 		"rewards": {
-				"function": "functions_h:challenge_ruby/7_lost"
+				"function": "functions_h:ruby_grant"
 		},
 	"criteria": {
 		"requirement": {

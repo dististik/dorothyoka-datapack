@@ -96,6 +96,6 @@
 		["dragon"]
 	],
     "rewards": {
-        "function": "functions_h:challenge_ruby/4_when"
+        "function": "functions_h:ruby_grant"
     }
 }
