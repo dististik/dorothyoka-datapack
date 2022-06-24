@@ -9,7 +9,7 @@
         "icon": {
             "item": "minecraft:diamond_hoe"
         },
-        "frame": "challenge",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
@@ -130,6 +130,6 @@
     ],
     "parent": "dfc72:basics/enchant_diamond_hoe",
     "rewards": {
-        "function": "functions_h:challenge_ruby/2_are"
+        "experience": 15
     }
 }
