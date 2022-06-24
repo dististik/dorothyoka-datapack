@@ -1,1 +1,0 @@
-advancement grant @s only functions_h:challenge_ruby/what_am_i_fighting_for
