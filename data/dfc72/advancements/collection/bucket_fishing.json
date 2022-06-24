@@ -69,6 +69,16 @@
                     }
                 ]
             }
+		},
+		"tadpole": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:tadpole_bucket"]
+					}
+				]
+			}
 		}
 	},
 	"requirements": [
@@ -76,7 +86,8 @@
 		["cod"],
 		["tropical"],
 		["puffer"],
-		["axolorl"]
+		["axolorl"],
+		["tadpole"]
 	],
 	"parent": "dfc72:collection/taming_1"
 }

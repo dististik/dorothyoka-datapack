@@ -84,13 +84,33 @@
                     }
                 ]
             }
+        },
+        "axolotl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:axolotl_bucket"]
+                    }
+                ]
+            }
+        },
+        "tadpole": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:tadpole_bucket"]
+                    }
+                ]
+            }
         }
     },
     "requirements":[
         ["water"],
         ["lava"],
         ["milk"],
-        ["fish1","fish2","fish3","fish4"]
+        ["fish1","fish2","fish3","fish4","axolotl","tadpole"]
     ],
     "parent": "dfc72:basics/other_tools"
 }
