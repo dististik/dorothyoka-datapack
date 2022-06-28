@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "disable": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:rotten_flesh"]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "dfc72:tanned_flesh",
+            "dfc72:tanned_flesh_from_smoking"
+        ]
+    }
+}
