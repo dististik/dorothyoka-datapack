@@ -1,0 +1,10 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:hero_of_the_village"
+		}
+	},
+	"rewards": {
+		"function": "functions_h:rng/simple/allay"
+	}
+}
