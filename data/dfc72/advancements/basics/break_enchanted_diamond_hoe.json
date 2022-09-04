@@ -23,7 +23,7 @@
                     "max": 0
                 },
                 "item": {
-                    "item": "minecraft:diamond_hoe",
+                    "items": ["minecraft:diamond_hoe"],
                     "enchantments": [
                         {
                             "enchantment": "minecraft:efficiency"
@@ -40,7 +40,7 @@
                     "max": 0
                 },
                 "item": {
-                    "item": "minecraft:diamond_hoe",
+                    "items": ["minecraft:diamond_hoe"],
                     "enchantments": [
                         {
                             "enchantment": "minecraft:fortune"
@@ -57,7 +57,7 @@
                     "max": 0
                 },
                 "item": {
-                    "item": "minecraft:diamond_hoe",
+                    "items": ["minecraft:diamond_hoe"],
                     "enchantments": [
                         {
                             "enchantment": "minecraft:unbreaking"
@@ -74,7 +74,7 @@
                     "max": 0
                 },
                 "item": {
-                    "item": "minecraft:diamond_hoe",
+                    "items": ["minecraft:diamond_hoe"],
                     "enchantments": [
                         {
                             "enchantment": "minecraft:silk_touch"
@@ -91,7 +91,7 @@
                     "max": 0
                 },
                 "item": {
-                    "item": "minecraft:diamond_hoe",
+                    "items": ["minecraft:diamond_hoe"],
                     "enchantments": [
                         {
                             "enchantment": "minecraft:mending"
@@ -108,7 +108,7 @@
                     "max": 0
                 },
                 "item": {
-                    "item": "minecraft:diamond_hoe",
+                    "items": ["minecraft:diamond_hoe"],
                     "enchantments": [
                         {
                             "enchantment": "minecraft:vanishing_curse"
