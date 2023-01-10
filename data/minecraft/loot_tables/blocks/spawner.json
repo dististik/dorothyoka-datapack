@@ -1,29 +1,35 @@
 {
-  "type": "minecraft:block",
-  "pools": [
-  	{
-  		"rolls": 1,
-  		"entries": [
-  			{
-  				"type": "minecraft:item",
-  				"name": "minecraft:spawner"
-  			}
-  		],
-  		"conditions": [
-  			{
-  				"condition": "minecraft:match_tool",
-  				"predicate": {
-  					"enchantments": [
-  						{
-  							"enchantment": "minecraft:silk_touch",
-  							"levels": {
-  								"min": 1
-  							}
-  						}
-  					]
-  				}
-  			}
-  		]
-  	}
-  ]
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:allay_spawn_egg",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{EntityTag: {Tags: [\"legacySpawner\"], id: \"minecraft:marker\"}, CustomModelData: 1, display: {Name: '{\"translate\":\"block.minecraft.spawner\",\"color\":\"light_purple\",\"italic\":false}'}}"
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:match_tool",
+					"predicate": {
+						"enchantments": [
+							{
+								"enchantment": "minecraft:silk_touch",
+								"levels": {
+									"min": 1
+								}
+							}
+						]
+					}
+				}
+			]
+		}
+	]
 }

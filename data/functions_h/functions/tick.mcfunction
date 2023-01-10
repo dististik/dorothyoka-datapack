@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:marker,tag=legacySpawner] run function functions_h:legacy_spawner

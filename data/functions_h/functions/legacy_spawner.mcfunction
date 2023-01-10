@@ -1,0 +1,3 @@
+execute at @e[type=minecraft:marker,tag=legacySpawner] run setblock ~ ~ ~ minecraft:spawner{Delay:311s,MaxNearbyEntities:6s,MaxSpawnDelay:800s,MinSpawnDelay:200s,RequiredPlayerRange:16s,SpawnCount:4s,SpawnData:{entity:{id:"minecraft:pig"}},SpawnPotentials:[],SpawnRange:4s}
+execute at @e[type=minecraft:marker,tag=legacySpawner] run playsound minecraft:block.glass.place block @e[distance=0..10,type=minecraft:player]
+kill @e[type=minecraft:marker]
