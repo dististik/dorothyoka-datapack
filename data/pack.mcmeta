@@ -1,7 +1,7 @@
 {
 	"pack" : {
 		"pack_format" : 10,
-		"description" : "Dorothy's MC Expansion 3.0 (latest test: 1.19.0)"
+		"description" : "Dorothy's MC Expansion 3.1b (latest test: 1.19.3)"
 	},
 	"filter": {
 		"block": [
