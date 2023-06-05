@@ -1,6 +1,5 @@
 {
 	"values": [
-		"functions_h:tick",
 		"functions_h:rng/tick"
 	]
 }
