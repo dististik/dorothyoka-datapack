@@ -14,75 +14,85 @@
 		"zombie": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
-				"player": {
-					"equipment": {
-						"head": {
-							"item": "minecraft:zombie_head"
-						}
-					}
-				},
 				"entity": {
 					"type": "minecraft:zombie"
+				},
+				"killing_blow": {
+					"source_entity": {
+						"equipment": {
+							"head": {
+								"items": ["minecraft:zombie_head"]
+							}
+						}
+					}
 				}
 			}
 		},
 		"archer": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
-				"player": {
-					"equipment": {
-						"head": {
-							"item": "minecraft:skeleton_skull"
-						}
-					}
-				},
 				"entity": {
 					"type": "minecraft:skeleton"
+				},
+				"killing_blow": {
+					"source_entity": {
+						"equipment": {
+							"head": {
+								"items": ["minecraft:skeleton_skull"]
+							}
+						}
+					}
 				}
 			}
 		},
 		"wither": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
-				"player": {
-					"equipment": {
-						"head": {
-							"item": "minecraft:wither_skeleton_skull"
-						}
-					}
-				},
 				"entity": {
 					"type": "minecraft:wither_skeleton"
+				},
+				"killing_blow": {
+					"source_entity": {
+						"equipment": {
+							"head": {
+								"items": ["minecraft:wither_skeleton_skull"]
+							}
+						}
+					}
 				}
 			}
 		},
 		"creeper": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
-				"player": {
-					"equipment": {
-						"head": {
-							"item": "minecraft:creeper_head"
-						}
-					}
-				},
 				"entity": {
 					"type": "minecraft:creeper"
+				},
+				"killing_blow": {
+					"source_entity": {
+						"equipment": {
+							"head": {
+								"items": ["minecraft:creeper_head"]
+							}
+						}
+					}
 				}
 			}
 		},
 		"dragon": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
-				"player": {
-					"equipment": {
-						"head": {
-							"item": "minecraft:dragon_head"
-						}
-					}
-				},
 				"entity": {
 					"type": "minecraft:ender_dragon"
+				},
+				"killing_blow": {
+					"source_entity": {
+						"equipment": {
+							"head": {
+								"items": ["minecraft:dragon_head"]
+							}
+						}
+					}
 				}
 			}
 		}
