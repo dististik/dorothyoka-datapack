@@ -14,15 +14,18 @@
 		"xxx": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-				"location": {
-					"block": {
-						"blocks": ["minecraft:daylight_detector"]
-					},
-					"light": {
-						"min": 0,
-						"max": 4
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {"blocks": ["minecraft:daylight_detector"]},
+							"light": {
+								"min": "0",
+								"max": "4"
+							}
+						}
 					}
-				}
+				]
 			}
 		}
 	},
