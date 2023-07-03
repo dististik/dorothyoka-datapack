@@ -1,31 +1,34 @@
 {
-    "display": {
-        "title": {
-            "text": "Magical Warfare"
-        },
-        "description": {
-            "text": "Kill a ghast with a magical attack."
-        },
-        "icon": {
-            "item": "minecraft:ghast_spawn_egg"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    "criteria": {
-        "xxx": {
-            "trigger": "minecraft:player_killed_entity",
-            "conditions": {
-                "entity": {
-                    "type": "minecraft:ghast"
-                },
-                "killing_blow": {
-                    "is_magic": true
-                }
-            }
-        }
-    },
-    "parent": "dfc72:hell/potion"
+	"display": {
+		"title": {
+			"text": "Magical Warfare"
+		},
+		"description": {
+			"text": "Kill a ghast with a magical attack."
+		},
+		"icon": {
+			"item": "minecraft:ghast_spawn_egg"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"xxx": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:ghast"
+				},
+				"killing_blow": {
+					"is_projectile": true,
+					"direct_entity": {
+						"type": "minecraft:potion"
+					}
+				}
+			}
+		}
+	},
+	"parent": "dfc72:hell/potion"
 }
