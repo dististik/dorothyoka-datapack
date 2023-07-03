@@ -1,12 +1,14 @@
 {
-    "type": "minecraft:smithing",
-    "base": {
-        "item": "minecraft:end_rod"
-    },
-    "addition": {
-        "item": "minecraft:copper_ingot"
-    },
-    "result": {
-        "item": "minecraft:lightning_rod"
-    }
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:end_rod"
+		},
+		{
+			"item": "minecraft:copper_ingot"
+		}
+	],
+	"result": {
+		"item": "minecraft:lightning_rod"
+	}
 }
