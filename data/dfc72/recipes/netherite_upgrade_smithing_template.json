@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"X&X",
+		"XDX",
+		"XXX"
+	],
+	"key": {
+		"&": {
+			"item": "minecraft:netherite_block"
+		},
+		"D": {
+			"item": "minecraft:netherrack"
+		},
+		"X": {
+			"item": "minecraft:diamond"
+		}
+	},
+	"result": {
+		"item": "minecraft:netherite_upgrade_smithing_template"
+	},
+	"group": "netherite_upgrades"
+}

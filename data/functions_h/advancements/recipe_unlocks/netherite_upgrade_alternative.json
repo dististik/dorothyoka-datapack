@@ -1,0 +1,35 @@
+{
+	"criteria": {
+		"ingot": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:netherite_ingot"]
+					}
+				]
+			}
+		},
+		"debris": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:ancient_debris"]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"recipes": [
+			"dfc72:netherite_upgrade_smithing_template"
+		]
+	},
+	"requirements": [
+		[
+			"ingot",
+			"debris"
+		]
+	]
+}
