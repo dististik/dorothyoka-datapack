@@ -16,10 +16,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:creeper_head"],
-						"count": {
-							"min": 1
-						}
+						"items": ["minecraft:creeper_head"]
 					}
 				]
 			}
@@ -29,10 +26,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:skeleton_skull"],
-						"count": {
-							"min": 1
-						}
+						"items": ["minecraft:skeleton_skull"]
 					}
 				]
 			}
@@ -42,10 +36,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:wither_skeleton_skull"],
-						"count": {
-							"min": 1
-						}
+						"items": ["minecraft:wither_skeleton_skull"]
 					}
 				]
 			}
@@ -55,10 +46,17 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:zombie_head"],
-						"count": {
-							"min": 1
-						}
+						"items": ["minecraft:zombie_head"]
+					}
+				]
+			}
+		},
+		"piglin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:piglin_head"]
 					}
 				]
 			}
@@ -69,7 +67,8 @@
 		["zombie"],
 		["spooky"],
 		["skeleton"],
-		["creeper"]
+		["creeper"],
+		["piglin"]
 	],
     "rewards": {
         "experience": 15
