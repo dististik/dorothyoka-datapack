@@ -1,0 +1,32 @@
+{
+	"display": {
+		"title": {
+			"text": "Budding Archaeologist"
+		},
+		"description": {
+			"text": "Interpret the past of lost cultures."
+		},
+		"icon": {
+			"item": "minecraft:danger_pottery_sherd"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"pot_without_bricks": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:decorated_pot",
+				"ingredients": [
+					{ "tag": "minecraft:decorated_pot_sherds" },
+					{ "tag": "minecraft:decorated_pot_sherds" },
+					{ "tag": "minecraft:decorated_pot_sherds" },
+					{ "tag": "minecraft:decorated_pot_sherds" }
+				]
+			}
+		}
+	},
+	"parent": "dfc72:collection/root"
+}
